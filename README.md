@@ -2,7 +2,7 @@
 
 `AI Engineer` | `Automation Architect`
 
-Focused on agentic workflows, dynamic neural pipelines, and scalable automations. Synthesizing data systems as a BS Candidate in Data Science at **IIT Madras**.
+Focused on agentic workflows, dynamic neural pipelines, and scalable automations. Synthesizing data systems as an online BS Candidate in Data Science at IIT Madras.
 
 ```text
 ██╗   ██╗ █████╗  ███████╗ ██╗  ██╗
@@ -63,10 +63,4 @@ system:
   <a href="https://github.com/Yash-Tripath1" target="_blank">
     <img src="https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/output/github-contribution-grid-snake-dark.svg" alt="Yash's Contribution Snake Game" width="100%" />
   </a>
-</p>
-
----
-
-<p align="center">
-  <img src="https://profile-counter.glitch.me/Yash-Tripath1/count.svg" alt="Profile Views" />
 </p>

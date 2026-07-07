@@ -68,7 +68,5 @@ system:
 ---
 
 <p align="center">
-  <a href="https://github.com/Yash-Tripath1" target="_blank">
-    <img src="https://komarev.com/normal-badge.png?id=Yash-Tripath1&color=7aa2f7&style=flat-square&label=telemetry.pings" alt="Telemetry" />
-  </a>
+  <img src="https://komarev.com/normal-badge.png?id=Yash-Tripath1&color=7aa2f7&style=flat-square&label=system.views" alt="Profile Views" />
 </p>

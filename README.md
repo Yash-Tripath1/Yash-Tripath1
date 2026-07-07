@@ -52,10 +52,10 @@ system:
 
 <p align="center">
   <a href="https://github.com/Yash-Tripath1" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api?username=Yash-Tripath1&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&title_color=7aa2f7&text_color=a9b1d6&icon_color=7abc6d&bg_color=1a1b26" width="48%" alt="Yash's GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Yash-Tripath1&show_icons=true&theme=tokyonight&count_private=true" width="48%" alt="Yash's GitHub Stats" />
   </a>
   <a href="https://github.com/Yash-Tripath1" target="_blank">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Yash-Tripath1&theme=tokyonight&hide_border=true&ring=7aa2f7&fire=7abc6d&currStreakNum=a9b1d6&sideLabels=a9b1d6&dates=a9b1d6&background=1a1b26" width="48%" alt="Yash's Streak Stats" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Yash-Tripath1&theme=tokyonight" width="48%" alt="Yash's Streak Stats" />
   </a>
 </p>
 
@@ -63,7 +63,7 @@ system:
 
 <p align="center">
   <a href="https://github.com/Yash-Tripath1" target="_blank">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Yash-Tripath1&theme=tokyo-night&area=true&hide_border=true&bg_color=1a1b26&color=a9b1d6&line=7abc6d&point=7aa2f7&area_color=1f2335" width="98%" alt="Yash's Activity Graph" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Yash-Tripath1&theme=tokyo-night&area=true" width="98%" alt="Yash's Activity Graph" />
   </a>
 </p>
 
@@ -72,12 +72,14 @@ system:
 <!-- Contribution Snake Animation Section -->
 <p align="center">
   <a href="https://github.com/Yash-Tripath1" target="_blank">
-    <img src="https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/output/github-contribution-grid-snake-dark.svg" alt="Yash's Contribution Snake Game" width="100%" />
+    <img src="https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/output/github-contribution-grid-snake-dark.svg" alt="Yash's Contribution Snake Game" width="100%" onerror="this.src='https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/output/github-contribution-grid-snake.svg'; this.onerror=null;" />
   </a>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://komarev.com/normal-badge.png?id=Yash-Tripath1&color=7aa2f7&style=flat-square&label=telemetry.pings" alt="Telemetry" />
+  <a href="https://github.com/Yash-Tripath1" target="_blank">
+    <img src="https://komarev.com/normal-badge.png?id=Yash-Tripath1&color=7aa2f7&style=flat-square&label=telemetry.pings" alt="Telemetry" />
+  </a>
 </p>

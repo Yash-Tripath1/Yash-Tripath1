@@ -52,17 +52,6 @@ system:
 
 <p align="center">
   <a href="https://github.com/Yash-Tripath1" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api?username=Yash-Tripath1&show_icons=true&theme=tokyonight&count_private=true" width="48%" alt="Yash's GitHub Stats" />
-  </a>
-  <a href="https://github.com/Yash-Tripath1" target="_blank">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Yash-Tripath1&theme=tokyonight" width="48%" alt="Yash's Streak Stats" />
-  </a>
-</p>
-
-<br />
-
-<p align="center">
-  <a href="https://github.com/Yash-Tripath1" target="_blank">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=Yash-Tripath1&theme=tokyo-night&area=true" width="98%" alt="Yash's Activity Graph" />
   </a>
 </p>
@@ -72,7 +61,7 @@ system:
 <!-- Contribution Snake Animation Section -->
 <p align="center">
   <a href="https://github.com/Yash-Tripath1" target="_blank">
-    <img src="https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/output/github-contribution-grid-snake-dark.svg" alt="Yash's Contribution Snake Game" width="100%" onerror="this.src='https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/output/github-contribution-grid-snake.svg'; this.onerror=null;" />
+    <img src="https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/output/github-contribution-grid-snake-dark.svg" alt="Yash's Contribution Snake Game" width="100%" />
   </a>
 </p>
 

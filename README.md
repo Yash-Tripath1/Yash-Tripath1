@@ -68,5 +68,5 @@ system:
 ---
 
 <p align="center">
-  <img src="https://komarev.com/normal-badge.png?id=Yash-Tripath1&color=7aa2f7&style=flat-square&label=system.views" alt="Profile Views" />
+  <img src="https://profile-counter.glitch.me/Yash-Tripath1/count.svg" alt="Profile Views" />
 </p>

@@ -1,25 +1,15 @@
-# Yash Tripathi
+# Anadi Tripathi
 
 `AI Engineer` | `Automation Architect`
 
 Focused on agentic workflows, dynamic neural pipelines, and scalable automations. Synthesizing data systems as an online BS Candidate in Data Science at IIT Madras.
 
-```text
-██╗   ██╗ █████╗  ███████╗ ██╗  ██╗
-╚██╗ ██╔╝██╔══██╗ ██╔════╝ ██║  ██║
- ╚████╔╝ ███████║ ███████╗ ███████║
-  ╚██╔╝  ██╔══██║ ╚════██║ ██╔══██║
-   ██║   ██║  ██║ ███████║ ██║  ██║
-   ╚═╝   ╚═╝  ╚═╝ ╚══════╝ ╚═╝  ╚═╝
-```
-
----
 
 ### 🌐 System Environment
 
 ```yaml
 system:
-  profile: Yash Tripathi
+  profile: Anadi Tripathi
   role: AI Engineer
   status: Active Explorer
   specialization:

@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="267" viewBox="0 0 1200 267" role="img" aria-label="266 contributions in the last year">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="267" viewBox="0 0 1200 267" role="img" aria-label="265 contributions in the last year">
 <defs>
 <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7aa2f7" stop-opacity="0"/><stop offset="0.5" stop-color="#7aa2f7" stop-opacity="0.30"/><stop offset="1" stop-color="#7aa2f7" stop-opacity="0"/></linearGradient>
 <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1117" stop-opacity="0"/><stop offset="1" stop-color="#0d1117" stop-opacity="0"/></linearGradient>
 </defs>
 <rect width="1200" height="267" rx="14" fill="#0d1117" stroke="#1d2635"/>
 <text x="44" y="46" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" letter-spacing="2.6" fill="#3d4a63">CONTRIBUTION ACTIVITY</text>
-<text x="1156" y="46" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" letter-spacing="1.2" fill="#6b7a99">266 contributions in the last year</text>
+<text x="1156" y="46" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" letter-spacing="1.2" fill="#6b7a99">265 contributions in the last year</text>
 <text x="151" y="78" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="10.5" letter-spacing="1" fill="#3d4a63">Oct</text>
 <text x="202" y="78" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="10.5" letter-spacing="1" fill="#3d4a63">Mar</text>
 <text x="253" y="78" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="10.5" letter-spacing="1" fill="#3d4a63">Aug</text>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="208" viewBox="0 0 1200 208" role="img" aria-label="Featured work">
+<rect width="1200" height="208" rx="14" fill="#ffffff" stroke="#dbe2f0"/>
+<g opacity="0"><animate attributeName="opacity" dur="27.0s" repeatCount="indefinite" keyTimes="0.00000;0.00370;0.03704;0.46667;0.50000;1.00000" values="0;0;1;1;0;0"/><animateTransform attributeName="transform" type="translate" dur="27.0s" repeatCount="indefinite" keyTimes="0;0.00370;0.02963;1" values="0 9;0 9;0 0;0 0"/>
+<text x="40" y="56" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#a9b6cd">01</text>
+<text x="78" y="56" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="19" font-weight="700" letter-spacing="0.2" fill="#2b5bd7">anadi-dev</text>
+<text x="330" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="#37415a">a 3D universe you scroll through, every planet is a project</text>
+<text x="1160" y="56" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="11.5" letter-spacing="0.6" fill="#93a1bb">react · three.js · typescript</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="27.0s" repeatCount="indefinite" keyTimes="0.00000;0.52407;0.55741;0.98704;1.00000;1.00000" values="0;0;1;1;0;0"/><animateTransform attributeName="transform" type="translate" dur="27.0s" repeatCount="indefinite" keyTimes="0;0.52407;0.55000;1" values="0 9;0 9;0 0;0 0"/>
+<text x="40" y="56" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#a9b6cd">04</text>
+<text x="78" y="56" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="19" font-weight="700" letter-spacing="0.2" fill="#2b5bd7">Veyra</text>
+<text x="330" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="#37415a">text hashed into colour and form, shareable with an encrypted link</text>
+<text x="1160" y="56" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="11.5" letter-spacing="0.6" fill="#93a1bb">html · web crypto</text>
+</g>
+<line x1="30" y1="76" x2="1170" y2="76" stroke="#eef2fa"/>
+<g opacity="0"><animate attributeName="opacity" dur="27.0s" repeatCount="indefinite" keyTimes="0.00000;0.17037;0.20370;0.63333;0.66667;1.00000" values="0;0;1;1;0;0"/><animateTransform attributeName="transform" type="translate" dur="27.0s" repeatCount="indefinite" keyTimes="0;0.17037;0.19630;1" values="0 9;0 9;0 0;0 0"/>
+<text x="40" y="112" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#a9b6cd">02</text>
+<text x="78" y="112" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="19" font-weight="700" letter-spacing="0.2" fill="#2b5bd7">memoir</text>
+<text x="330" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="#37415a">turn a WhatsApp chat export into a printable scrapbook</text>
+<text x="1160" y="112" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="11.5" letter-spacing="0.6" fill="#93a1bb">react · vite · tailwind</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="27.0s" repeatCount="indefinite" keyTimes="0.00000;0.69074;0.72407;1.00000;1.00000;1.00000" values="0;0;1;1;0;0"/><animateTransform attributeName="transform" type="translate" dur="27.0s" repeatCount="indefinite" keyTimes="0;0.69074;0.71667;1" values="0 9;0 9;0 0;0 0"/>
+<text x="40" y="112" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#a9b6cd">05</text>
+<text x="78" y="112" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="19" font-weight="700" letter-spacing="0.2" fill="#2b5bd7">Shakespeare-GPT</text>
+<text x="330" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="#37415a">a language model trained from scratch on 80,000 lines of Shakespeare</text>
+<text x="1160" y="112" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="11.5" letter-spacing="0.6" fill="#93a1bb">python · numpy</text>
+</g>
+<line x1="30" y1="132" x2="1170" y2="132" stroke="#eef2fa"/>
+<g opacity="0"><animate attributeName="opacity" dur="27.0s" repeatCount="indefinite" keyTimes="0.00000;0.33704;0.37037;0.80000;0.83333;1.00000" values="0;0;1;1;0;0"/><animateTransform attributeName="transform" type="translate" dur="27.0s" repeatCount="indefinite" keyTimes="0;0.33704;0.36296;1" values="0 9;0 9;0 0;0 0"/>
+<text x="40" y="168" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#a9b6cd">03</text>
+<text x="78" y="168" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="19" font-weight="700" letter-spacing="0.2" fill="#2b5bd7">Vynt</text>
+<text x="330" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="#37415a">a Y2K photo booth for the desktop, exports PNG and WebM</text>
+<text x="1160" y="168" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="11.5" letter-spacing="0.6" fill="#93a1bb">typescript · canvas · electron</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" dur="27.0s" repeatCount="indefinite" keyTimes="0.00000;0.85741;0.89074;1.00000;1.00000;1.00000" values="0;0;1;1;0;0"/><animateTransform attributeName="transform" type="translate" dur="27.0s" repeatCount="indefinite" keyTimes="0;0.85741;0.88333;1" values="0 9;0 9;0 0;0 0"/>
+<text x="40" y="168" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#a9b6cd">06</text>
+<text x="78" y="168" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="19" font-weight="700" letter-spacing="0.2" fill="#2b5bd7">SurfGambit</text>
+<text x="330" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="#37415a">a web browser built from scratch, rendering pipeline and all</text>
+<text x="1160" y="168" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="11.5" letter-spacing="0.6" fill="#93a1bb">python · tkinter</text>
+</g>
+</svg>

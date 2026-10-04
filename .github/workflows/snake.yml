@@ -2,14 +2,13 @@ name: Generate Snake
 
 on:
   schedule:
-    # Runs every 12 hours
+    # every 12 hours
     - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
-    branches:
-      - main
+    branches: [main]
 
-# Grant the execution worker write access to update the output branch files
+# lets the job push the generated files to the `output` branch
 permissions:
   contents: write
 
@@ -27,9 +26,7 @@ jobs:
           github_user_name: Yash-Tripath1
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=cyan&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#7dcfff&color_dots=#1b2434,#173a63,#1f6fb2,#48a8f0,#7dcfff
 
       - name: Show build status
         run: git status
@@ -39,6 +36,6 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
-          commit_message: "Telemetry sync: contribution grid snake updated"
+          commit_message: "chore(snake): contribution grid updated"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,58 @@
+name: Refresh Profile Assets
+
+# Regenerates the banner + activity graph from live GitHub data and commits them.
+# Nothing is fetched from third-party image hosts, so the README can't end up
+# with a broken/rate-limited image.
+
+on:
+  schedule:
+    # 02:17 UTC every day (~07:47 IST)
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    # only these paths — the bot's own commit to assets/ and data/ never re-triggers
+    paths:
+      - "scripts/**"
+      - ".github/workflows/update.yml"
+      - "README.md"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pull contribution calendar
+        run: python3 scripts/fetch_contributions.py --user Yash-Tripath1
+
+      - name: Rebuild activity graph
+        run: python3 scripts/gen_hero.py
+
+      - name: Rebuild banner
+        run: python3 scripts/gen_banner.py
+
+      - name: Commit refreshed assets
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets data
+          if git diff --quiet --cached; then
+            echo "assets already up to date"
+          else
+            git commit -m "chore(assets): refresh banner + activity graph"
+            git push
+          fi

@@ -1,56 +1,83 @@
-# Anadi Tripathi
+<div align="center">
 
-`AI Engineer` | `Automation Architect`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/main/assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/main/assets/banner-light.svg">
+  <img src="https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/main/assets/banner-dark.svg" alt="Anadi Tripathi, solo developer" width="100%">
+</picture>
 
-Focused on agentic workflows, dynamic neural pipelines, and scalable automations. Synthesizing data systems as an online BS Candidate in Data Science at IIT Madras.
+<br>
 
+<a href="https://anadi-dev.vercel.app"><img src="https://img.shields.io/badge/portfolio-anadi--dev.vercel.app-16223a?style=flat-square&logo=vercel&logoColor=7aa2f7" height="24"></a>&nbsp;
+<a href="https://www.linkedin.com/in/anadi-tripathi-4a33543a6"><img src="https://img.shields.io/badge/linkedin-anadi--tripathi-16223a?style=flat-square&logo=linkedin&logoColor=7aa2f7" height="24"></a>&nbsp;
+<a href="https://github.com/glymph-studio"><img src="https://img.shields.io/badge/studio-glymph-16223a?style=flat-square&logo=github&logoColor=7aa2f7" height="24"></a>
 
-### 🌐 System Environment
+</div>
+
+---
+
+### about
+
+- co-founder of **Glymph Studio**, an indie dev collective that ships tools fast and open
+- build end to end: a browser engine in Python, a language model trained from scratch, desktop apps on Electron
+- dual degree: **BCA** at University of Lucknow + **BS in Data Science** at IIT Madras (online)
+- into **AI/ML, automation and cybersecurity**; learning in public, one repo at a time
+- reach me on [LinkedIn](https://www.linkedin.com/in/anadi-tripathi-4a33543a6) or through the [portfolio](https://anadi-dev.vercel.app)
+
+### featured work
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/main/assets/featured-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/main/assets/featured-light.svg">
+  <img src="https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/main/assets/featured-dark.svg" alt="Featured projects" width="100%">
+</picture>
+
+</div>
+
+### selected work
+
+| project | what it is | stack |
+| :--- | :--- | :--- |
+| [**anadi-dev**](https://anadi-dev.vercel.app) · [src](https://github.com/Yash-Tripath1/Personal-Website) | scroll flown 3D universe where every planet is a project, with browser synthesised audio and a hidden terminal | React 19 · three.js · TypeScript |
+| [**memoir**](https://memoir-echoes.vercel.app) · [src](https://github.com/Yash-Tripath1/memoir) | turns WhatsApp chat exports into scrapbooks: custom parser plus a drag, resize and rotate canvas editor | React · Vite · Tailwind |
+| [**Vynt**](https://github.com/Yash-Tripath1/Vynt) | local first Y2K photo booth, 8 real time canvas filters, exports PNG and WebM, ships as a Windows installer | TypeScript · Canvas · Electron |
+| [**Veyra**](https://veyra-ivory.vercel.app) · [src](https://github.com/Yash-Tripath1/Veyra) | deterministic generative art: text hashed into colour and form, shareable through encrypted links, zero backend | HTML · JS · Web Crypto |
+| [**Shakespeare-GPT**](https://github.com/Yash-Tripath1/Shakespeare-GPT) | GPT style language model built and trained from scratch on ~80k lines of Shakespeare | Python |
+| [**SurfGambit**](https://github.com/Yash-Tripath1/SurfGambit) | a web browser written from scratch, following browser.engineering, own rendering pipeline | Python · Tkinter |
+
+### stack
 
 ```yaml
-system:
-  profile: Anadi Tripathi
-  role: AI Engineer
-  status: Active Explorer
-  specialization:
-    - Agentic Workflows
-    - RAG Pipelines
-    - Low-Code Backends (n8n, APIs)
-  education:
-    - BS in Data Science, IIT Madras (IITM)
-    - Bachelor of Computer Applications (B.C.A.)
-  next_milestone:
-    - Native Scripting (Python Neural Implementations)
+languages:   [ Python, TypeScript, JavaScript, HTML/CSS, Luau ]
+frameworks:  [ React, Vite, Node/Express, Tailwind, Electron, three.js ]
+ai_and_data: [ LLM APIs (Groq), model training from scratch, llama.cpp, prompt design ]
+tooling:     [ Linux, Git, Docker, Firebase, Vercel, n8n, Ollama ]
 ```
 
+### activity
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/main/assets/activity-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/main/assets/activity-light.svg">
+  <img src="https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/main/assets/activity-dark.svg" alt="Contribution activity" width="100%">
+</picture>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/output/github-contribution-grid-snake.svg">
+  <img src="https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" width="100%">
+</picture>
+
+</div>
+
 ---
 
-### ⚡ Technology Matrix
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" height="24" />&nbsp;
-  <img src="https://img.shields.io/badge/n8n-FF6C37?style=flat-square&logo=n8n&logoColor=white" height="24" />&nbsp;
-  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white" height="24" />&nbsp;
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" height="24" />&nbsp;
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" height="24" />&nbsp;
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" height="24" />
-</p>
-
----
-
-### 🔮 System Telemetry
-
-<p align="center">
-  <a href="https://github.com/Yash-Tripath1" target="_blank">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Yash-Tripath1&theme=tokyo-night&area=true" width="98%" alt="Yash's Activity Graph" />
-  </a>
-</p>
-
-<br />
-
-<!-- Contribution Snake Animation Section -->
-<p align="center">
-  <a href="https://github.com/Yash-Tripath1" target="_blank">
-    <img src="https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/output/github-contribution-grid-snake-dark.svg" alt="Yash's Contribution Snake Game" width="100%" />
-  </a>
-</p>
+<div align="center">
+<sub>this profile rebuilds itself every night. banner, featured strip and activity graph are generated by the scripts in <code>/scripts</code></sub>
+</div>

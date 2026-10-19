@@ -1,73 +1,138 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="336" viewBox="0 0 1200 336" role="img" aria-label="Anadi Tripathi, developer, AI and automation">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="362" viewBox="0 0 1200 362" role="img" aria-label="Anadi Tripathi, solo developer, co-founder of Glymph Studio">
 <defs>
-<linearGradient id="cardbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f6f8fe"/></linearGradient>
-<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#2b5bd7" stop-opacity="0.16"/><stop offset="1" stop-color="#2b5bd7" stop-opacity="0"/></radialGradient>
-<pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#e9eefa"/></pattern>
+<clipPath id="body"><rect x="1" y="48" width="1198" height="313" rx="0"/></clipPath>
 </defs>
-<rect x="6" y="6" width="1188" height="324" rx="18" fill="url(#cardbg)" stroke="#dbe2f0"/>
-<rect x="6" y="6" width="1188" height="324" rx="18" fill="url(#dots)"/>
+<rect x="1" y="1" width="1198" height="360" rx="14" fill="#ffffff" stroke="#e2e2e2"/>
+<path d="M1 15 a14 14 0 0 1 14 -14 h1170 a14 14 0 0 1 14 14 v33 h-1198 z" fill="#f4f4f4"/>
+<line x1="1" y1="48" x2="1199" y2="48" stroke="#e2e2e2"/>
+<circle cx="24" cy="24.0" r="5.5" fill="#d4d4d4"/>
+<circle cx="42" cy="24.0" r="5.5" fill="#bfbfbf"/>
+<circle cx="60" cy="24.0" r="5.5" fill="#a9a9a9"/>
+<text x="86" y="28.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.5" letter-spacing="1.3" fill="#969696">anadi@iitm: ~/profile</text>
+<text x="1178" y="28.5" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12.5" letter-spacing="1.6" fill="#969696">bash</text>
+<g clip-path="url(#body)">
+<g id="session">
+<text x="34" y="84.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="18.0" xml:space="preserve">
+<tspan fill="#6a6a6a">anadi@iitm</tspan>
+<tspan fill="#b2b2b2">:~$ </tspan>
+<tspan fill="#0a0a0a">whoami</tspan>
+</text>
+<rect x="32" y="66.0" height="28.5" width="0" fill="#ffffff"><animate attributeName="width" dur="7.06s" fill="freeze" calcMode="discrete" keyTimes="0;0.09915;0.10198;0.10482;0.10765;0.11048;0.11331;0.11615;0.11898;0.12181;0.12465;0.12748;0.13031;0.13314;0.13598;0.13881;0.14164;0.14448;0.14731;0.15014;0.15297;0.15581;1" values="219.0;219.0;208.05;197.1;186.15;175.2;164.25;153.3;142.35;131.4;120.45;109.5;98.55;87.6;76.65;65.7;54.75;43.8;32.85;21.9;10.95;0.0;0"/></rect>
 <g>
-<ellipse cx="250" cy="140" rx="320" ry="190" fill="url(#glow)"/>
-<ellipse cx="1020" cy="260" rx="300" ry="180" fill="url(#glow)"/>
-<animateTransform attributeName="transform" type="translate" values="0 0; 14 -10; -6 8; 0 0" keyTimes="0;0.35;0.7;1" dur="19s" repeatCount="indefinite"/>
+<rect x="34" y="68.0" width="10.8" height="21.0" fill="#0a0a0a" opacity="0">
+<animate attributeName="x" dur="7.06s" fill="freeze" keyTimes="0;0.09915;0.11615;1" values="34;34;250.0;250.0"/>
+<animate attributeName="opacity" dur="7.06s" fill="freeze" calcMode="discrete" keyTimes="0;0.09915;0.1289;1" values="0;0.9;0;0"/>
+</rect></g>
+<text x="34" y="115.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="18.0" xml:space="preserve">
+<tspan fill="#4a4a4a">anadi tripathi</tspan>
+<tspan fill="#a6a6a6"> · </tspan>
+<tspan fill="#4a4a4a">18</tspan>
+<tspan fill="#a6a6a6"> · </tspan>
+<tspan fill="#4a4a4a">lucknow, india</tspan>
+<tspan fill="#a6a6a6"> · </tspan>
+<tspan fill="#4a4a4a">solo developer</tspan>
+</text>
+<rect x="32" y="97.5" height="28.5" width="0" fill="#ffffff"><animate attributeName="width" dur="7.06s" fill="freeze" calcMode="discrete" keyTimes="0;0.15297;0.15411;0.15524;0.15637;0.15751;0.15864;0.15977;0.16091;0.16204;0.16317;0.16431;0.16544;0.16657;0.16771;0.16884;0.16997;0.1711;0.17224;0.17337;0.1745;0.17564;0.17677;0.1779;0.17904;0.18017;0.1813;0.18244;0.18357;0.1847;0.18584;0.18697;0.1881;0.18924;0.19037;0.1915;0.19263;0.19377;0.1949;0.19603;0.19717;0.1983;0.19943;0.20057;0.2017;0.20283;0.20397;0.2051;0.20623;0.20737;0.2085;0.20963;0.21076;0.2119;0.21303;1" values="575.4;575.4;564.54;553.69;542.83;531.97;521.12;510.26;499.4;488.55;477.69;466.83;455.98;445.12;434.26;423.41;412.55;401.69;390.84;379.98;369.12;358.27;347.41;336.55;325.7;314.84;303.98;293.13;282.27;271.42;260.56;249.7;238.85;227.99;217.13;206.28;195.42;184.56;173.71;162.85;151.99;141.14;130.28;119.42;108.57;97.71;86.85;76.0;65.14;54.28;43.43;32.57;21.71;10.86;0.0;0"/></rect>
+<g>
+<rect x="34" y="99.5" width="10.8" height="21.0" fill="#0a0a0a" opacity="0">
+<animate attributeName="x" dur="7.06s" fill="freeze" keyTimes="0;0.15297;0.21303;1" values="34;34;606.4;606.4"/>
+<animate attributeName="opacity" dur="7.06s" fill="freeze" calcMode="discrete" keyTimes="0;0.15297;0.22578;1" values="0;0.9;0;0"/>
+</rect></g>
+<text x="34" y="147.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="18.0" xml:space="preserve">
+<tspan fill="#6a6a6a">anadi@iitm</tspan>
+<tspan fill="#b2b2b2">:~$ </tspan>
+<tspan fill="#0a0a0a">cat roles.txt</tspan>
+</text>
+<rect x="32" y="129.0" height="28.5" width="0" fill="#ffffff"><animate attributeName="width" dur="7.06s" fill="freeze" calcMode="discrete" keyTimes="0;0.24986;0.25269;0.25552;0.25836;0.26119;0.26402;0.26686;0.26969;0.27252;0.27535;0.27819;0.28102;0.28385;0.28669;0.28952;0.29235;0.29518;0.29802;0.30085;0.30368;0.30652;0.30935;0.31218;0.31501;0.31785;0.32068;0.32351;0.32635;1" values="294.6;294.6;283.69;272.78;261.87;250.96;240.04;229.13;218.22;207.31;196.4;185.49;174.58;163.67;152.76;141.84;130.93;120.02;109.11;98.2;87.29;76.38;65.47;54.56;43.64;32.73;21.82;10.91;0.0;0"/></rect>
+<g>
+<rect x="34" y="131.0" width="10.8" height="21.0" fill="#0a0a0a" opacity="0">
+<animate attributeName="x" dur="7.06s" fill="freeze" keyTimes="0;0.24986;0.28669;1" values="34;34;325.6;325.6"/>
+<animate attributeName="opacity" dur="7.06s" fill="freeze" calcMode="discrete" keyTimes="0;0.24986;0.29943;1" values="0;0.9;0;0"/>
+</rect></g>
+<text x="34" y="178.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="18.0" xml:space="preserve">
+<tspan fill="#4a4a4a">co-founder @ glymph studio</tspan>
+<tspan fill="#a6a6a6"> · </tspan>
+<tspan fill="#4a4a4a">ai / ml</tspan>
+<tspan fill="#a6a6a6"> · </tspan>
+<tspan fill="#4a4a4a">automation</tspan>
+<tspan fill="#a6a6a6"> · </tspan>
+<tspan fill="#4a4a4a">cybersecurity</tspan>
+</text>
+<rect x="32" y="160.5" height="28.5" width="0" fill="#ffffff"><animate attributeName="width" dur="7.06s" fill="freeze" calcMode="discrete" keyTimes="0;0.32351;0.32465;0.32578;0.32691;0.32805;0.32918;0.33031;0.33144;0.33258;0.33371;0.33484;0.33598;0.33711;0.33824;0.33938;0.34051;0.34164;0.34278;0.34391;0.34504;0.34618;0.34731;0.34844;0.34958;0.35071;0.35184;0.35297;0.35411;0.35524;0.35637;0.35751;0.35864;0.35977;0.36091;0.36204;0.36317;0.36431;0.36544;0.36657;0.36771;0.36884;0.36997;0.3711;0.37224;0.37337;0.3745;0.37564;0.37677;0.3779;0.37904;0.38017;0.3813;0.38244;0.38357;0.3847;0.38584;0.38697;0.3881;0.38924;0.39037;0.3915;0.39263;0.39377;0.3949;0.39603;0.39717;1" values="705.0;705.0;694.15;683.31;672.46;661.62;650.77;639.92;629.08;618.23;607.38;596.54;585.69;574.85;564.0;553.15;542.31;531.46;520.62;509.77;498.92;488.08;477.23;466.38;455.54;444.69;433.85;423.0;412.15;401.31;390.46;379.62;368.77;357.92;347.08;336.23;325.38;314.54;303.69;292.85;282.0;271.15;260.31;249.46;238.62;227.77;216.92;206.08;195.23;184.38;173.54;162.69;151.85;141.0;130.15;119.31;108.46;97.62;86.77;75.92;65.08;54.23;43.38;32.54;21.69;10.85;0.0;0"/></rect>
+<g>
+<rect x="34" y="162.5" width="10.8" height="21.0" fill="#0a0a0a" opacity="0">
+<animate attributeName="x" dur="7.06s" fill="freeze" keyTimes="0;0.32351;0.39717;1" values="34;34;736.0;736.0"/>
+<animate attributeName="opacity" dur="7.06s" fill="freeze" calcMode="discrete" keyTimes="0;0.32351;0.40992;1" values="0;0.9;0;0"/>
+</rect></g>
+<text x="34" y="210.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="18.0" xml:space="preserve">
+<tspan fill="#6a6a6a">anadi@iitm</tspan>
+<tspan fill="#b2b2b2">:~$ </tspan>
+<tspan fill="#0a0a0a">ls ~/stack</tspan>
+</text>
+<rect x="32" y="192.0" height="28.5" width="0" fill="#ffffff"><animate attributeName="width" dur="7.06s" fill="freeze" calcMode="discrete" keyTimes="0;0.43399;0.43683;0.43966;0.44249;0.44533;0.44816;0.45099;0.45382;0.45666;0.45949;0.46232;0.46516;0.46799;0.47082;0.47365;0.47649;0.47932;0.48215;0.48499;0.48782;0.49065;0.49348;0.49632;0.49915;0.50198;1" values="262.2;262.2;251.27;240.35;229.42;218.5;207.58;196.65;185.72;174.8;163.88;152.95;142.03;131.1;120.17;109.25;98.32;87.4;76.47;65.55;54.62;43.7;32.77;21.85;10.92;0.0;0"/></rect>
+<g>
+<rect x="34" y="194.0" width="10.8" height="21.0" fill="#0a0a0a" opacity="0">
+<animate attributeName="x" dur="7.06s" fill="freeze" keyTimes="0;0.43399;0.46232;1" values="34;34;293.2;293.2"/>
+<animate attributeName="opacity" dur="7.06s" fill="freeze" calcMode="discrete" keyTimes="0;0.43399;0.47507;1" values="0;0.9;0;0"/>
+</rect></g>
+<text x="34" y="241.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="18.0" xml:space="preserve">
+<tspan fill="#4a4a4a">python</tspan>
+<tspan fill="#a6a6a6"> · </tspan>
+<tspan fill="#4a4a4a">typescript</tspan>
+<tspan fill="#a6a6a6"> · </tspan>
+<tspan fill="#4a4a4a">javascript</tspan>
+<tspan fill="#a6a6a6"> · </tspan>
+<tspan fill="#4a4a4a">react</tspan>
+<tspan fill="#a6a6a6"> · </tspan>
+<tspan fill="#4a4a4a">vite</tspan>
+<tspan fill="#a6a6a6"> · </tspan>
+<tspan fill="#4a4a4a">node</tspan>
+<tspan fill="#a6a6a6"> · </tspan>
+<tspan fill="#4a4a4a">electron</tspan>
+<tspan fill="#a6a6a6"> · </tspan>
+<tspan fill="#4a4a4a">llm apis</tspan>
+<tspan fill="#a6a6a6"> · </tspan>
+<tspan fill="#4a4a4a">linux</tspan>
+</text>
+<rect x="32" y="223.5" height="28.5" width="0" fill="#ffffff"><animate attributeName="width" dur="7.06s" fill="freeze" calcMode="discrete" keyTimes="0;0.49915;0.50028;0.50142;0.50255;0.50368;0.50482;0.50595;0.50708;0.50822;0.50935;0.51048;0.51161;0.51275;0.51388;0.51501;0.51615;0.51728;0.51841;0.51955;0.52068;0.52181;0.52295;0.52408;0.52521;0.52635;0.52748;0.52861;0.52975;0.53088;0.53201;0.53314;0.53428;0.53541;0.53654;0.53768;0.53881;0.53994;0.54108;0.54221;0.54334;0.54448;0.54561;0.54674;0.54788;0.54901;0.55014;0.55127;0.55241;0.55354;0.55467;0.55581;0.55694;0.55807;0.55921;0.56034;0.56147;0.56261;0.56374;0.56487;0.56601;0.56714;0.56827;0.56941;0.57054;0.57167;0.5728;0.57394;0.57507;0.5762;0.57734;0.57847;0.5796;0.58074;0.58187;0.583;0.58414;0.58527;0.5864;0.58754;0.58867;0.5898;0.59093;0.59207;0.5932;0.59433;1" values="910.2;910.2;899.36;888.53;877.69;866.86;856.02;845.19;834.35;823.51;812.68;801.84;791.01;780.17;769.34;758.5;747.66;736.83;725.99;715.16;704.32;693.49;682.65;671.81;660.98;650.14;639.31;628.47;617.64;606.8;595.96;585.13;574.29;563.46;552.62;541.79;530.95;520.11;509.28;498.44;487.61;476.77;465.94;455.1;444.26;433.43;422.59;411.76;400.92;390.09;379.25;368.41;357.58;346.74;335.91;325.07;314.24;303.4;292.56;281.73;270.89;260.06;249.22;238.39;227.55;216.71;205.88;195.04;184.21;173.37;162.54;151.7;140.86;130.03;119.19;108.36;97.52;86.69;75.85;65.01;54.18;43.34;32.51;21.67;10.84;0.0;0"/></rect>
+<g>
+<rect x="34" y="225.5" width="10.8" height="21.0" fill="#0a0a0a" opacity="0">
+<animate attributeName="x" dur="7.06s" fill="freeze" keyTimes="0;0.49915;0.59433;1" values="34;34;941.2;941.2"/>
+<animate attributeName="opacity" dur="7.06s" fill="freeze" calcMode="discrete" keyTimes="0;0.49915;0.60708;1" values="0;0.9;0;0"/>
+</rect></g>
+<text x="34" y="273.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="18.0" xml:space="preserve">
+<tspan fill="#6a6a6a">anadi@iitm</tspan>
+<tspan fill="#b2b2b2">:~$ </tspan>
+<tspan fill="#0a0a0a">cat links.txt</tspan>
+</text>
+<rect x="32" y="255.0" height="28.5" width="0" fill="#ffffff"><animate attributeName="width" dur="7.06s" fill="freeze" calcMode="discrete" keyTimes="0;0.63116;0.63399;0.63683;0.63966;0.64249;0.64533;0.64816;0.65099;0.65382;0.65666;0.65949;0.66232;0.66516;0.66799;0.67082;0.67365;0.67649;0.67932;0.68215;0.68499;0.68782;0.69065;0.69348;0.69632;0.69915;0.70198;0.70482;0.70765;1" values="294.6;294.6;283.69;272.78;261.87;250.96;240.04;229.13;218.22;207.31;196.4;185.49;174.58;163.67;152.76;141.84;130.93;120.02;109.11;98.2;87.29;76.38;65.47;54.56;43.64;32.73;21.82;10.91;0.0;0"/></rect>
+<g>
+<rect x="34" y="257.0" width="10.8" height="21.0" fill="#0a0a0a" opacity="0">
+<animate attributeName="x" dur="7.06s" fill="freeze" keyTimes="0;0.63116;0.66799;1" values="34;34;325.6;325.6"/>
+<animate attributeName="opacity" dur="7.06s" fill="freeze" calcMode="discrete" keyTimes="0;0.63116;0.68074;1" values="0;0.9;0;0"/>
+</rect></g>
+<text x="34" y="304.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="18.0" xml:space="preserve">
+<tspan fill="#0a0a0a">anadi-dev.vercel.app</tspan>
+<tspan fill="#a6a6a6"> · </tspan>
+<tspan fill="#0a0a0a">github.com/yash-tripath1</tspan>
+<tspan fill="#a6a6a6"> · </tspan>
+<tspan fill="#0a0a0a">linkedin.com/in/anadi-tripathi</tspan>
+</text>
+<rect x="32" y="286.5" height="28.5" width="0" fill="#ffffff"><animate attributeName="width" dur="7.06s" fill="freeze" calcMode="discrete" keyTimes="0;0.70482;0.70595;0.70708;0.70822;0.70935;0.71048;0.71161;0.71275;0.71388;0.71501;0.71615;0.71728;0.71841;0.71955;0.72068;0.72181;0.72295;0.72408;0.72521;0.72635;0.72748;0.72861;0.72975;0.73088;0.73201;0.73314;0.73428;0.73541;0.73654;0.73768;0.73881;0.73994;0.74108;0.74221;0.74334;0.74448;0.74561;0.74674;0.74788;0.74901;0.75014;0.75127;0.75241;0.75354;0.75467;0.75581;0.75694;0.75807;0.75921;0.76034;0.76147;0.76261;0.76374;0.76487;0.76601;0.76714;0.76827;0.76941;0.77054;0.77167;0.7728;0.77394;0.77507;0.7762;0.77734;0.77847;0.7796;0.78074;0.78187;0.783;0.78414;0.78527;0.7864;0.78754;0.78867;0.7898;0.79093;0.79207;0.7932;0.79433;0.79547;1" values="867.0;867.0;856.16;845.32;834.49;823.65;812.81;801.97;791.14;780.3;769.46;758.62;747.79;736.95;726.11;715.27;704.44;693.6;682.76;671.92;661.09;650.25;639.41;628.57;617.74;606.9;596.06;585.22;574.39;563.55;552.71;541.87;531.04;520.2;509.36;498.52;487.69;476.85;466.01;455.17;444.34;433.5;422.66;411.82;400.99;390.15;379.31;368.47;357.64;346.8;335.96;325.12;314.29;303.45;292.61;281.77;270.94;260.1;249.26;238.42;227.59;216.75;205.91;195.07;184.24;173.4;162.56;151.72;140.89;130.05;119.21;108.37;97.54;86.7;75.86;65.02;54.19;43.35;32.51;21.67;10.84;0.0;0"/></rect>
+<g>
+<rect x="34" y="288.5" width="10.8" height="21.0" fill="#0a0a0a" opacity="0">
+<animate attributeName="x" dur="7.06s" fill="freeze" keyTimes="0;0.70482;0.79547;1" values="34;34;898.0;898.0"/>
+<animate attributeName="opacity" dur="7.06s" fill="freeze" calcMode="discrete" keyTimes="0;0.70482;0.80822;1" values="0;0.9;0;0"/>
+</rect></g>
+<text x="34" y="336.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="18.0" xml:space="preserve">
+<tspan fill="#6a6a6a">anadi@iitm</tspan>
+<tspan fill="#b2b2b2">:~$ </tspan>
+</text>
+<rect x="32" y="318.0" height="28.5" width="0" fill="#ffffff"><animate attributeName="width" dur="7.06s" fill="freeze" calcMode="discrete" keyTimes="0;0.83229;0.83513;0.83796;0.84079;0.84363;0.84646;0.84929;0.85212;0.85496;0.85779;0.86062;0.86346;0.86629;0.86912;0.87195;1" values="154.2;154.2;143.19;132.17;121.16;110.14;99.13;88.11;77.1;66.09;55.07;44.06;33.04;22.03;11.01;0.0;0"/></rect>
+<g><animate attributeName="opacity" dur="1.15s" repeatCount="indefinite" values="1;0.1;1" keyTimes="0;0.5;1"/>
+<rect x="34" y="320.0" width="10.8" height="21.0" fill="#0a0a0a" opacity="0">
+<animate attributeName="x" dur="7.06s" fill="freeze" keyTimes="0;0.83229;0.87195;1" values="34;34;185.2;185.2"/>
+<animate attributeName="opacity" dur="7.06s" fill="freeze" calcMode="discrete" keyTimes="0;0.87195;1" values="0;0.9;0.9"/>
+</rect></g>
 </g>
-<text x="54" y="138" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="88" font-weight="700" letter-spacing="-1.5" fill="#2b5bd7">ANADI</text>
-<text x="54" y="218" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="88" font-weight="700" letter-spacing="-1.5" fill="none" stroke="#a9b6cd" stroke-width="1.4">TRIPATHI</text>
-<circle cx="58" cy="249" r="4" fill="#2f9e44"><animate attributeName="opacity" values="1;0.15;1" dur="2.4s" repeatCount="indefinite"/></circle>
-<text x="72" y="254" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13.5" letter-spacing="1.5" fill="#5b6b85">@yash-tripath1 · solo developer · co-founder @ glymph studio</text>
-<g id="terminal">
-<rect x="594" y="57" width="570" height="232" rx="12" fill="#000" opacity="0.22"/>
-<rect x="592" y="52" width="570" height="232" rx="12" fill="#f8fafd" stroke="#dbe2f0"/>
-<path d="M592 64 a12 12 0 0 1 12 -12 h546 a12 12 0 0 1 12 12 v18 h-570 z" fill="#eef2fa"/>
-<line x1="592" y1="82" x2="1162" y2="82" stroke="#dbe2f0"/>
-<circle cx="611" cy="67" r="5" fill="#e03131"/>
-<circle cx="628" cy="67" r="5" fill="#febc2e"/>
-<circle cx="645" cy="67" r="5" fill="#28c840"/>
-<text x="1148" y="71.5" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="11.5" letter-spacing="1.4" fill="#8b9ab5">anadi@iitm : bash</text>
-<text x="610" y="116.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15.0" xml:space="preserve">
-<tspan fill="#0b7285">$</tspan>
-<tspan fill="#2b5bd7"> whoami</tspan>
-</text>
-<rect x="608" y="101.0" height="23.0" width="0" fill="#f8fafd"><animate attributeName="width" dur="15.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.06;0.0622;0.0644;0.0666;0.0688;0.071;0.0732;0.0754;0.0776;1" values="75.0 ;75.0 ;65.62 ;56.25 ;46.88 ;37.5 ;28.12 ;18.75 ;9.38 ;0.0 ;0"/></rect>
-<rect x="610" y="103.0" width="9.0" height="18.0" fill="#2b5bd7" opacity="0.9"><animate attributeName="x" dur="15.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.06;0.0776;0.08427;1" values="610;610;682.0;682.0;682.0"/><animate attributeName="opacity" dur="15.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.06;0.0776;0.08427;1" values="0;0.9;0.9;0;0"/></rect>
-<text x="610" y="142.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15.0" xml:space="preserve">
-<tspan fill="#1f2937"> anadi tripathi</tspan>
-<tspan fill="#9aa8c2">  ·  </tspan>
-<tspan fill="#1f2937">18</tspan>
-<tspan fill="#9aa8c2">  ·  </tspan>
-<tspan fill="#1f2937">lucknow, india</tspan>
-</text>
-<rect x="608" y="127.0" height="23.0" width="0" fill="#f8fafd"><animate attributeName="width" dur="15.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.10027;0.10247;0.10467;0.10687;0.10907;0.11127;0.11347;0.11567;0.11787;0.12007;0.12227;0.12447;0.12667;0.12887;0.13107;0.13327;0.13547;0.13767;0.13987;0.14207;0.14427;0.14647;0.14867;0.15087;0.15307;0.15527;0.15747;0.15967;0.16187;0.16407;0.16627;0.16847;0.17067;0.17287;0.17507;0.17727;0.17947;0.18167;0.18387;0.18607;0.18827;0.19047;1" values="372.0 ;372.0 ;362.93 ;353.85 ;344.78 ;335.71 ;326.63 ;317.56 ;308.49 ;299.41 ;290.34 ;281.27 ;272.2 ;263.12 ;254.05 ;244.98 ;235.9 ;226.83 ;217.76 ;208.68 ;199.61 ;190.54 ;181.46 ;172.39 ;163.32 ;154.24 ;145.17 ;136.1 ;127.02 ;117.95 ;108.88 ;99.8 ;90.73 ;81.66 ;72.59 ;63.51 ;54.44 ;45.37 ;36.29 ;27.22 ;18.15 ;9.07 ;0.0 ;0"/></rect>
-<rect x="610" y="129.0" width="9.0" height="18.0" fill="#2b5bd7" opacity="0.9"><animate attributeName="x" dur="15.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.10027;0.19047;0.19713;1" values="610;610;979.0;979.0;979.0"/><animate attributeName="opacity" dur="15.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.10027;0.19047;0.19713;1" values="0;0.9;0.9;0;0"/></rect>
-<text x="610" y="168.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15.0" xml:space="preserve">
-<tspan fill="#0b7285">$</tspan>
-<tspan fill="#2b5bd7"> cat roles.txt</tspan>
-</text>
-<rect x="608" y="153.0" height="23.0" width="0" fill="#f8fafd"><animate attributeName="width" dur="15.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.21313;0.21533;0.21753;0.21973;0.22193;0.22413;0.22633;0.22853;0.23073;0.23293;0.23513;0.23733;0.23953;0.24173;0.24393;0.24613;1" values="138.0 ;138.0 ;128.8 ;119.6 ;110.4 ;101.2 ;92.0 ;82.8 ;73.6 ;64.4 ;55.2 ;46.0 ;36.8 ;27.6 ;18.4 ;9.2 ;0.0 ;0"/></rect>
-<rect x="610" y="155.0" width="9.0" height="18.0" fill="#2b5bd7" opacity="0.9"><animate attributeName="x" dur="15.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.21313;0.24613;0.2528;1" values="610;610;745.0;745.0;745.0"/><animate attributeName="opacity" dur="15.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.21313;0.24613;0.2528;1" values="0;0.9;0.9;0;0"/></rect>
-<text x="610" y="194.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15.0" xml:space="preserve">
-<tspan fill="#1f2937"> developer</tspan>
-<tspan fill="#9aa8c2">  ·  </tspan>
-<tspan fill="#1f2937">automation</tspan>
-<tspan fill="#9aa8c2">  ·  </tspan>
-<tspan fill="#1f2937">ai / ml</tspan>
-<tspan fill="#9aa8c2">  ·  </tspan>
-<tspan fill="#1f2937">cybersecurity</tspan>
-</text>
-<rect x="608" y="179.0" height="23.0" width="0" fill="#f8fafd"><animate attributeName="width" dur="15.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2688;0.271;0.2732;0.2754;0.2776;0.2798;0.282;0.2842;0.2864;0.2886;0.2908;0.293;0.2952;0.2974;0.2996;0.3018;0.304;0.3062;0.3084;0.3106;0.3128;0.315;0.3172;0.3194;0.3216;0.3238;0.326;0.3282;0.3304;0.3326;0.3348;0.337;0.3392;0.3414;0.3436;0.3458;0.348;0.3502;0.3524;0.3546;0.3568;0.359;0.3612;0.3634;0.3656;0.3678;0.37;0.3722;0.3744;0.3766;0.3788;0.381;0.3832;0.3854;0.3876;0.3898;1" values="498.0 ;498.0 ;488.95 ;479.89 ;470.84 ;461.78 ;452.73 ;443.67 ;434.62 ;425.56 ;416.51 ;407.45 ;398.4 ;389.35 ;380.29 ;371.24 ;362.18 ;353.13 ;344.07 ;335.02 ;325.96 ;316.91 ;307.85 ;298.8 ;289.75 ;280.69 ;271.64 ;262.58 ;253.53 ;244.47 ;235.42 ;226.36 ;217.31 ;208.25 ;199.2 ;190.15 ;181.09 ;172.04 ;162.98 ;153.93 ;144.87 ;135.82 ;126.76 ;117.71 ;108.65 ;99.6 ;90.55 ;81.49 ;72.44 ;63.38 ;54.33 ;45.27 ;36.22 ;27.16 ;18.11 ;9.05 ;0.0 ;0"/></rect>
-<rect x="610" y="181.0" width="9.0" height="18.0" fill="#2b5bd7" opacity="0.9"><animate attributeName="x" dur="15.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2688;0.3898;0.39647;1" values="610;610;1105.0;1105.0;1105.0"/><animate attributeName="opacity" dur="15.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2688;0.3898;0.39647;1" values="0;0.9;0.9;0;0"/></rect>
-<text x="610" y="220.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15.0" xml:space="preserve">
-<tspan fill="#0b7285">$</tspan>
-<tspan fill="#2b5bd7"> ./status --now</tspan>
-</text>
-<rect x="608" y="205.0" height="23.0" width="0" fill="#f8fafd"><animate attributeName="width" dur="15.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.41247;0.41467;0.41687;0.41907;0.42127;0.42347;0.42567;0.42787;0.43007;0.43227;0.43447;0.43667;0.43887;0.44107;0.44327;0.44547;0.44767;1" values="147.0 ;147.0 ;137.81 ;128.62 ;119.44 ;110.25 ;101.06 ;91.88 ;82.69 ;73.5 ;64.31 ;55.12 ;45.94 ;36.75 ;27.56 ;18.38 ;9.19 ;0.0 ;0"/></rect>
-<rect x="610" y="207.0" width="9.0" height="18.0" fill="#2b5bd7" opacity="0.9"><animate attributeName="x" dur="15.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.41247;0.44767;0.45433;1" values="610;610;754.0;754.0;754.0"/><animate attributeName="opacity" dur="15.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.41247;0.44767;0.45433;1" values="0;0.9;0.9;0;0"/></rect>
-<text x="610" y="246.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15.0" xml:space="preserve">
-<tspan fill="#2f9e44"> dual degree: bca + bs data science</tspan>
-<tspan fill="#5b6b85"> @ iit madras</tspan>
-</text>
-<rect x="608" y="231.0" height="23.0" width="0" fill="#f8fafd"><animate attributeName="width" dur="15.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.47033;0.47253;0.47473;0.47693;0.47913;0.48133;0.48353;0.48573;0.48793;0.49013;0.49233;0.49453;0.49673;0.49893;0.50113;0.50333;0.50553;0.50773;0.50993;0.51213;0.51433;0.51653;0.51873;0.52093;0.52313;0.52533;0.52753;0.52973;0.53193;0.53413;0.53633;0.53853;0.54073;0.54293;0.54513;0.54733;0.54953;0.55173;0.55393;0.55613;0.55833;0.56053;0.56273;0.56493;0.56713;0.56933;0.57153;0.57373;0.57593;1" values="435.0 ;435.0 ;425.94 ;416.88 ;407.81 ;398.75 ;389.69 ;380.62 ;371.56 ;362.5 ;353.44 ;344.38 ;335.31 ;326.25 ;317.19 ;308.12 ;299.06 ;290.0 ;280.94 ;271.88 ;262.81 ;253.75 ;244.69 ;235.62 ;226.56 ;217.5 ;208.44 ;199.38 ;190.31 ;181.25 ;172.19 ;163.12 ;154.06 ;145.0 ;135.94 ;126.88 ;117.81 ;108.75 ;99.69 ;90.62 ;81.56 ;72.5 ;63.44 ;54.38 ;45.31 ;36.25 ;27.19 ;18.12 ;9.06 ;0.0 ;0"/></rect>
-<rect x="610" y="233.0" width="9.0" height="18.0" fill="#2b5bd7" opacity="0.9"><animate attributeName="x" dur="15.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.47033;0.57593;0.5826;1" values="610;610;1042.0;1042.0;1042.0"/><animate attributeName="opacity" dur="15.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.47033;0.57593;0.5826;1" values="0;0.9;0.9;0;0"/></rect>
-<text x="610" y="270" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="11.5" letter-spacing="1.1" fill="#9aa8c2">python · typescript · react · electron · llm apis · n8n · git</text>
-<animate attributeName="opacity" dur="15.0s" repeatCount="indefinite" values="1;1;0;0" keyTimes="0;0.82667;0.87333;1"/>
 </g></svg>

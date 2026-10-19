@@ -1,72 +1,90 @@
-# Profile rebuild: where to push
+# Profile rebuild: monochrome edition
 
-Target repo: **`Yash-Tripath1/Yash-Tripath1`** (the special repo whose name equals
-your username, default branch `main`). Right now it only contains `README.md` and
-`.github/workflows/snake.yml`, so everything else is new.
+Target repo: **`Yash-Tripath1/Yash-Tripath1`** (the repo whose name equals your
+username, default branch `main`).
 
-## 1. Push the files
+## 0. If you already pushed the previous version
 
-Paste this in Git Bash / PowerShell, one block:
+Some files from the last version are no longer used. Delete them first:
 
-```bash
-git clone https://github.com/Yash-Tripath1/Yash-Tripath1.git
-cd Yash-Tripath1
-
-# copy from this workspace folder: README.md, assets/, data/, scripts/, .github/, SETUP.md
-# (drag the folders in Explorer, or:)
-# cp -r /path/to/this/folder/{README.md,assets,data,scripts,.github,SETUP.md} .
-
-git add .
-git commit -m "feat: rebuild profile (custom animated banner, featured strip, self hosted activity graph)"
+```powershell
+cd C:\Users\tripa\Yash-Tripath1
+git rm -r --ignore-unmatch data scripts/gen_hero.py scripts/fetch_contributions.py `
+  assets/activity-dark.svg assets/activity-light.svg .github/workflows/update.yml
+git commit -m "chore: drop custom activity graph and nightly workflow"
 git push
 ```
 
-That's it for the upload. Until you push `assets/`, the images 404.
+(If that commit has nothing to remove, you never pushed those files. Fine either way.)
 
-## 2. Two settings clicks
+## 1. Copy the new files in
 
-1. `Settings → Actions → General → Workflow permissions` → **Read and write permissions** → Save.
-   (This is what let you commit the snake before. `update.yml` needs it too.)
-2. `Actions → Refresh Profile Assets → Run workflow`, then
-   `Actions → Generate Snake → Run workflow` once so both snake themes exist.
+```powershell
+cd C:\Users\tripa
+Expand-Archive .\Downloads\profile-rebuild.zip -DestinationPath .\profile-extract -Force
+Copy-Item .\profile-extract\profile-rebuild\.github .\Yash-Tripath1\ -Recurse -Force
+Copy-Item .\profile-extract\profile-rebuild\*       .\Yash-Tripath1\ -Recurse -Force
 
-Then open your profile with a hard refresh (`Ctrl + Shift + R`).
+cd .\Yash-Tripath1
+Get-ChildItem -Force -Name      # must show .github, assets, scripts, README.md, SETUP.md
+git status --short              # must show changes
+git add .
+git commit -m "feat: monochrome theme, rotating featured strip, no activity graph"
+git push
+```
 
-## 3. What each generated image is
+## 2. Run the snake once
 
-| file | README section | how it updates |
-| :--- | :--- | :--- |
-| `assets/banner-{dark,light}.svg` | top banner, animated terminal | nightly job |
-| `assets/featured-{dark,light}.svg` | rotating featured strip | nightly job, content from `scripts/gen_showcase.py` |
-| `assets/activity-{dark,light}.svg` | contribution graph, animated | nightly job, pulls live data |
-| `output` branch snake | bottom animation | every 12 hours |
+`Actions → Generate Snake → Run workflow`. It now writes **both** `snake.svg`
+(light) and `snake-dark.svg` (dark) in a monochrome palette, so the README can
+pick the right one per theme.
+
+If the image looks stale after that, hard refresh (`Ctrl + Shift + R`); GitHub's
+image proxy can cache for a few hours.
+
+## 3. What's in the repo now
+
+```
+README.md                        profile readme
+assets/
+  banner-dark.svg                animated banner, dark
+  banner-light.svg               animated banner, light
+  featured-{dark,light}.svg      rotating featured strip
+scripts/
+  gen_banner.py                  banner generator
+  gen_showcase.py                featured strip generator
+  gen_preview.py                 local preview builder
+.github/workflows/snake.yml      contribution snake, both themes
+SETUP.md                         this file
+```
+
+Nothing else. No nightly workflow, because nothing needs refreshing anymore.
 
 ## 4. Editing things later
 
-**featured strip content** (the rotating list): `scripts/gen_showcase.py`, the
-`PROJECTS` list. Each line is `(name, description, stack)`. Then:
+**featured strip content:** `scripts/gen_showcase.py`, the `PROJECTS` list. Each
+entry is `(name, description, stack)`. Then:
 
-```bash
+```powershell
 python3 scripts/gen_showcase.py
-git add assets/featured-*.svg && git commit -m "chore: refresh featured" && git push
+git add assets/featured-*.svg
+git commit -m "chore: refresh featured"
+git push
 ```
 
-**banner text** (the terminal commands): `scripts/gen_banner.py`, the `LINES`
-list at the top. Then run `python3 scripts/gen_banner.py` and push `assets/`.
+**banner terminal text:** `scripts/gen_banner.py`, the `LINES` list at the top.
+Run `python3 scripts/gen_banner.py` and push `assets/`.
 
-**projects table, about bullets, stack block**: plain Markdown in `README.md`.
+**about bullets and stack block:** plain Markdown in `README.md`.
 
-**activity graph numbers**: nothing to do, the workflow recalculates totals and
-streaks from your public calendar every day at 02:17 UTC.
+**local preview:** `python3 scripts/gen_preview.py`, then open `preview.html`.
+Real SVGs are inlined, so animation and the dark/light toggle work offline.
 
-**local preview before pushing**: `python3 scripts/gen_preview.py` then open
-`preview.html`. It inlines the real SVGs, so animation and the dark/light toggle
-work offline.
+## 5. Theme rules
 
-## 5. Things that intentionally are not there
-
-- no GitHub stats / streak cards and no view counter: those services kept
-  returning errors and blank images
-- no third party graph service for the heatmap: it used to return `402` and break.
-  It is generated from your own repo data now, so it cannot go dark
-- no emoji headers and no em dashes anywhere in the visible text
+- Banner, featured strip and snake are monochrome: white on black for dark mode,
+  black on white for light mode.
+- The only colour on the profile is GitHub's own contribution graph, which stays
+  green. That's the intended accent.
+- No third party image services anywhere, so nothing can 404 or rate limit.
+- No emoji headers and no em dashes in the visible text.

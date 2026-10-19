@@ -2,8 +2,8 @@
 """
 Generates the rotating "featured work" strip (dark + light) for the README.
 
-Three rows, each cycling through two projects per loop with a staggered start, so
-at any moment three different projects are on screen and all six get shown.
+Four rows, each cycling through two projects per loop with a staggered start, so
+at any moment four different projects are on screen and all eight get shown.
 
 Animation is SMIL only (opacity + a small translate on entry), so it survives
 GitHub's image proxy and plays inside an <img> tag.
@@ -19,7 +19,7 @@ import os
 W = 1200
 PAD = 20
 ROW_H = 56
-ROWS = 3
+ROWS = 4
 H = PAD * 2 + ROWS * ROW_H
 
 CYCLE = 27.0        # one full loop
@@ -36,14 +36,18 @@ SANS = ("-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, "
 
 # (name, description, stack)  -- kept short so rows never collide
 PROJECTS = [
+    ("seq-matching",    "a reported policy advantage that does not survive 12x the data",
+     "python · simulation · power analysis"),
+    ("Bendlab",         "plant bending simulated, clustered, parameters shown to be degenerate",
+     "python · clustering · model fitting"),
     ("anadi-dev",       "a 3D universe you scroll through, every planet is a project",
      "react · three.js · typescript"),
-    ("memoir",          "turn a WhatsApp chat export into a printable scrapbook",
-     "react · vite · tailwind"),
     ("Vynt",            "a Y2K photo booth for the desktop, exports PNG and WebM",
      "typescript · canvas · electron"),
-    ("Veyra",           "text hashed into colour and form, shareable with an encrypted link",
-     "html · web crypto"),
+    ("vynt-meet",       "Y2K filters piped into the video Google Meet actually sends",
+     "chrome mv3 · canvas · javascript"),
+    ("Collex",          "verified data and Groq written reviews on 250+ Indian colleges",
+     "javascript · groq · firebase"),
     ("Shakespeare-GPT", "a language model trained from scratch on 80,000 lines of Shakespeare",
      "python · numpy"),
     ("SurfGambit",      "a web browser built from scratch, rendering pipeline and all",
@@ -52,14 +56,14 @@ PROJECTS = [
 
 PALETTE = {
     "dark": {
-        "bg": "#0d1117", "border": "#1d2635",
-        "index": "#3d4a63", "name": "#7aa2f7", "desc": "#a9b6d0",
-        "stack": "#525c78", "rule": "#171f2c",
+        "bg": "#0a0a0a", "border": "#262626",
+        "index": "#4a4a4a", "name": "#ffffff", "desc": "#a8a8a8",
+        "stack": "#6a6a6a", "rule": "#1a1a1a",
     },
     "light": {
-        "bg": "#ffffff", "border": "#dbe2f0",
-        "index": "#a9b6cd", "name": "#2b5bd7", "desc": "#37415a",
-        "stack": "#93a1bb", "rule": "#eef2fa",
+        "bg": "#ffffff", "border": "#e2e2e2",
+        "index": "#a9a9a9", "name": "#0a0a0a", "desc": "#3c3c3c",
+        "stack": "#8f8f8f", "rule": "#f0f0f0",
     },
 }
 

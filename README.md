@@ -21,7 +21,7 @@
 - co-founder of **Glymph Studio**, an indie dev collective that ships tools fast and open
 - running open research alongside the apps: simulation and replication studies with code, paper and a Zenodo archive
 - build end to end: a browser engine in Python, a language model trained from scratch, desktop apps on Electron
-- dual degree: **BCA** at University of Lucknow + **BS in Data Science** at IIT Madras (online)
+- dual degree: **BCA** at University of Lucknow + **BS in Data Science** at IIT Madras 
 - into **AI/ML, automation and cybersecurity**; learning in public, one repo at a time
 - reach me on [LinkedIn](https://www.linkedin.com/in/anadi-tripathi-4a33543a6) or through the [portfolio](https://anadi-dev.vercel.app)
 

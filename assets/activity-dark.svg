@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="267" viewBox="0 0 1200 267" role="img" aria-label="334 contributions in the last year">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="267" viewBox="0 0 1200 267" role="img" aria-label="335 contributions in the last year">
 <defs>
 <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7aa2f7" stop-opacity="0"/><stop offset="0.5" stop-color="#7aa2f7" stop-opacity="0.30"/><stop offset="1" stop-color="#7aa2f7" stop-opacity="0"/></linearGradient>
 <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1117" stop-opacity="0"/><stop offset="1" stop-color="#0d1117" stop-opacity="0"/></linearGradient>
 </defs>
 <rect width="1200" height="267" rx="14" fill="#0d1117" stroke="#1d2635"/>
 <text x="44" y="46" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" letter-spacing="2.6" fill="#3d4a63">CONTRIBUTION ACTIVITY</text>
-<text x="1156" y="46" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" letter-spacing="1.2" fill="#6b7a99">334 contributions in the last year</text>
+<text x="1156" y="46" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="13" letter-spacing="1.2" fill="#6b7a99">335 contributions in the last year</text>
 <text x="151" y="78" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="10.5" letter-spacing="1" fill="#3d4a63">Nov</text>
 <text x="202" y="78" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="10.5" letter-spacing="1" fill="#3d4a63">Apr</text>
 <text x="253" y="78" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="10.5" letter-spacing="1" fill="#3d4a63">Sep</text>
@@ -53,7 +53,7 @@
 <rect x="219" y="141" width="13" height="13" rx="3" fill="#1b2434"><title>2026-05-24, level 0</title></rect>
 <rect x="219" y="158" width="13" height="13" rx="3" fill="#1b2434"><title>2026-05-31, level 0</title></rect>
 <rect x="219" y="175" width="13" height="13" rx="3" fill="#1b2434"><title>2026-06-07, level 0</title></rect>
-<rect x="219" y="192" width="13" height="13" rx="3" fill="#173a63"><title>2026-06-14, level 1</title></rect>
+<rect x="219" y="192" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-06-14, level 2</title></rect>
 </g>
 <g opacity="0"><animate attributeName="opacity" dur="14.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.09643;0.93571;1" values="0;1;1;0"/>
 <rect x="236" y="90" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-06-21, level 2</title></rect>
@@ -69,7 +69,7 @@
 <rect x="253" y="107" width="13" height="13" rx="3" fill="#1b2434"><title>2026-08-16, level 0</title></rect>
 <rect x="253" y="124" width="13" height="13" rx="3" fill="#1b2434"><title>2026-08-23, level 0</title></rect>
 <rect x="253" y="141" width="13" height="13" rx="3" fill="#1b2434"><title>2026-08-30, level 0</title></rect>
-<rect x="253" y="158" width="13" height="13" rx="3" fill="#173a63"><title>2026-09-06, level 1</title></rect>
+<rect x="253" y="158" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-09-06, level 2</title></rect>
 <rect x="253" y="175" width="13" height="13" rx="3" fill="#1b2434"><title>2026-09-13, level 0</title></rect>
 <rect x="253" y="192" width="13" height="13" rx="3" fill="#173a63"><title>2026-09-20, level 1</title></rect>
 </g>
@@ -110,7 +110,7 @@
 <rect x="321" y="192" width="13" height="13" rx="3" fill="#1b2434"><title>2026-03-30, level 0</title></rect>
 </g>
 <g opacity="0"><animate attributeName="opacity" dur="14.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.165;0.93571;1" values="0;1;1;0"/>
-<rect x="338" y="90" width="13" height="13" rx="3" fill="#173a63"><title>2026-04-06, level 1</title></rect>
+<rect x="338" y="90" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-04-06, level 2</title></rect>
 <rect x="338" y="107" width="13" height="13" rx="3" fill="#1b2434"><title>2026-04-13, level 0</title></rect>
 <rect x="338" y="124" width="13" height="13" rx="3" fill="#1b2434"><title>2026-04-20, level 0</title></rect>
 <rect x="338" y="141" width="13" height="13" rx="3" fill="#1b2434"><title>2026-04-27, level 0</title></rect>
@@ -123,7 +123,7 @@
 <rect x="355" y="107" width="13" height="13" rx="3" fill="#1b2434"><title>2026-06-01, level 0</title></rect>
 <rect x="355" y="124" width="13" height="13" rx="3" fill="#1b2434"><title>2026-06-08, level 0</title></rect>
 <rect x="355" y="141" width="13" height="13" rx="3" fill="#173a63"><title>2026-06-15, level 1</title></rect>
-<rect x="355" y="158" width="13" height="13" rx="3" fill="#173a63"><title>2026-06-22, level 1</title></rect>
+<rect x="355" y="158" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-06-22, level 2</title></rect>
 <rect x="355" y="175" width="13" height="13" rx="3" fill="#173a63"><title>2026-06-29, level 1</title></rect>
 <rect x="355" y="192" width="13" height="13" rx="3" fill="#1b2434"><title>2026-07-06, level 0</title></rect>
 </g>
@@ -132,15 +132,15 @@
 <rect x="372" y="107" width="13" height="13" rx="3" fill="#1b2434"><title>2026-07-20, level 0</title></rect>
 <rect x="372" y="124" width="13" height="13" rx="3" fill="#48a8f0"><title>2026-07-27, level 3</title></rect>
 <rect x="372" y="141" width="13" height="13" rx="3" fill="#1b2434"><title>2026-08-03, level 0</title></rect>
-<rect x="372" y="158" width="13" height="13" rx="3" fill="#173a63"><title>2026-08-10, level 1</title></rect>
+<rect x="372" y="158" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-08-10, level 2</title></rect>
 <rect x="372" y="175" width="13" height="13" rx="3" fill="#1b2434"><title>2026-08-17, level 0</title></rect>
 <rect x="372" y="192" width="13" height="13" rx="3" fill="#1b2434"><title>2026-08-24, level 0</title></rect>
 </g>
 <g opacity="0"><animate attributeName="opacity" dur="14.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.19929;0.93571;1" values="0;1;1;0"/>
-<rect x="389" y="90" width="13" height="13" rx="3" fill="#173a63"><title>2026-08-31, level 1</title></rect>
+<rect x="389" y="90" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-08-31, level 2</title></rect>
 <rect x="389" y="107" width="13" height="13" rx="3" fill="#1b2434"><title>2026-09-07, level 0</title></rect>
 <rect x="389" y="124" width="13" height="13" rx="3" fill="#1b2434"><title>2026-09-14, level 0</title></rect>
-<rect x="389" y="141" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-09-21, level 2</title></rect>
+<rect x="389" y="141" width="13" height="13" rx="3" fill="#48a8f0"><title>2026-09-21, level 3</title></rect>
 <rect x="389" y="158" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-09-28, level 2</title></rect>
 <rect x="389" y="175" width="13" height="13" rx="3" fill="#173a63"><title>2026-10-05, level 1</title></rect>
 <rect x="389" y="192" width="13" height="13" rx="3" fill="#173a63"><title>2026-10-12, level 1</title></rect>
@@ -248,7 +248,7 @@
 <rect x="593" y="90" width="13" height="13" rx="3" fill="#1b2434"><title>2026-04-08, level 0</title></rect>
 <rect x="593" y="107" width="13" height="13" rx="3" fill="#1b2434"><title>2026-04-15, level 0</title></rect>
 <rect x="593" y="124" width="13" height="13" rx="3" fill="#1b2434"><title>2026-04-22, level 0</title></rect>
-<rect x="593" y="141" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-04-29, level 2</title></rect>
+<rect x="593" y="141" width="13" height="13" rx="3" fill="#48a8f0"><title>2026-04-29, level 3</title></rect>
 <rect x="593" y="158" width="13" height="13" rx="3" fill="#1b2434"><title>2026-05-06, level 0</title></rect>
 <rect x="593" y="175" width="13" height="13" rx="3" fill="#1b2434"><title>2026-05-13, level 0</title></rect>
 <rect x="593" y="192" width="13" height="13" rx="3" fill="#1b2434"><title>2026-05-20, level 0</title></rect>
@@ -276,7 +276,7 @@
 <rect x="644" y="107" width="13" height="13" rx="3" fill="#1b2434"><title>2026-09-09, level 0</title></rect>
 <rect x="644" y="124" width="13" height="13" rx="3" fill="#1b2434"><title>2026-09-16, level 0</title></rect>
 <rect x="644" y="141" width="13" height="13" rx="3" fill="#48a8f0"><title>2026-09-23, level 3</title></rect>
-<rect x="644" y="158" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-09-30, level 2</title></rect>
+<rect x="644" y="158" width="13" height="13" rx="3" fill="#48a8f0"><title>2026-09-30, level 3</title></rect>
 <rect x="644" y="175" width="13" height="13" rx="3" fill="#173a63"><title>2026-10-07, level 1</title></rect>
 <rect x="644" y="192" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-10-14, level 2</title></rect>
 </g>
@@ -331,8 +331,8 @@
 <rect x="746" y="124" width="13" height="13" rx="3" fill="#1b2434"><title>2026-07-09, level 0</title></rect>
 <rect x="746" y="141" width="13" height="13" rx="3" fill="#1b2434"><title>2026-07-16, level 0</title></rect>
 <rect x="746" y="158" width="13" height="13" rx="3" fill="#1b2434"><title>2026-07-23, level 0</title></rect>
-<rect x="746" y="175" width="13" height="13" rx="3" fill="#173a63"><title>2026-07-30, level 1</title></rect>
-<rect x="746" y="192" width="13" height="13" rx="3" fill="#48a8f0"><title>2026-08-06, level 3</title></rect>
+<rect x="746" y="175" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-07-30, level 2</title></rect>
+<rect x="746" y="192" width="13" height="13" rx="3" fill="#7dcfff"><title>2026-08-06, level 4</title></rect>
 </g>
 <g opacity="0"><animate attributeName="opacity" dur="14.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.45071;0.93571;1" values="0;1;1;0"/>
 <rect x="763" y="90" width="13" height="13" rx="3" fill="#1b2434"><title>2026-08-13, level 0</title></rect>
@@ -345,7 +345,7 @@
 </g>
 <g opacity="0"><animate attributeName="opacity" dur="14.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.46214;0.93571;1" values="0;1;1;0"/>
 <rect x="780" y="90" width="13" height="13" rx="3" fill="#173a63"><title>2026-10-01, level 1</title></rect>
-<rect x="780" y="107" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-10-08, level 2</title></rect>
+<rect x="780" y="107" width="13" height="13" rx="3" fill="#48a8f0"><title>2026-10-08, level 3</title></rect>
 <rect x="780" y="124" width="13" height="13" rx="3" fill="#7dcfff"><title>2026-10-15, level 4</title></rect>
 <rect x="780" y="141" width="13" height="13" rx="3" fill="#1b2434"><title>2025-10-24, level 0</title></rect>
 <rect x="780" y="158" width="13" height="13" rx="3" fill="#1b2434"><title>2025-10-31, level 0</title></rect>
@@ -374,7 +374,7 @@
 <rect x="831" y="90" width="13" height="13" rx="3" fill="#1b2434"><title>2026-02-27, level 0</title></rect>
 <rect x="831" y="107" width="13" height="13" rx="3" fill="#1b2434"><title>2026-03-06, level 0</title></rect>
 <rect x="831" y="124" width="13" height="13" rx="3" fill="#1b2434"><title>2026-03-13, level 0</title></rect>
-<rect x="831" y="141" width="13" height="13" rx="3" fill="#173a63"><title>2026-03-20, level 1</title></rect>
+<rect x="831" y="141" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-03-20, level 2</title></rect>
 <rect x="831" y="158" width="13" height="13" rx="3" fill="#1b2434"><title>2026-03-27, level 0</title></rect>
 <rect x="831" y="175" width="13" height="13" rx="3" fill="#173a63"><title>2026-04-03, level 1</title></rect>
 <rect x="831" y="192" width="13" height="13" rx="3" fill="#1b2434"><title>2026-04-10, level 0</title></rect>
@@ -391,8 +391,8 @@
 <g opacity="0"><animate attributeName="opacity" dur="14.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.51929;0.93571;1" values="0;1;1;0"/>
 <rect x="865" y="90" width="13" height="13" rx="3" fill="#1b2434"><title>2026-06-05, level 0</title></rect>
 <rect x="865" y="107" width="13" height="13" rx="3" fill="#1b2434"><title>2026-06-12, level 0</title></rect>
-<rect x="865" y="124" width="13" height="13" rx="3" fill="#173a63"><title>2026-06-19, level 1</title></rect>
-<rect x="865" y="141" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-06-26, level 2</title></rect>
+<rect x="865" y="124" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-06-19, level 2</title></rect>
+<rect x="865" y="141" width="13" height="13" rx="3" fill="#48a8f0"><title>2026-06-26, level 3</title></rect>
 <rect x="865" y="158" width="13" height="13" rx="3" fill="#1b2434"><title>2026-07-03, level 0</title></rect>
 <rect x="865" y="175" width="13" height="13" rx="3" fill="#1b2434"><title>2026-07-10, level 0</title></rect>
 <rect x="865" y="192" width="13" height="13" rx="3" fill="#1b2434"><title>2026-07-17, level 0</title></rect>
@@ -400,7 +400,7 @@
 <g opacity="0"><animate attributeName="opacity" dur="14.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.53071;0.93571;1" values="0;1;1;0"/>
 <rect x="882" y="90" width="13" height="13" rx="3" fill="#1b2434"><title>2026-07-24, level 0</title></rect>
 <rect x="882" y="107" width="13" height="13" rx="3" fill="#1b2434"><title>2026-07-31, level 0</title></rect>
-<rect x="882" y="124" width="13" height="13" rx="3" fill="#173a63"><title>2026-08-07, level 1</title></rect>
+<rect x="882" y="124" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-08-07, level 2</title></rect>
 <rect x="882" y="141" width="13" height="13" rx="3" fill="#1b2434"><title>2026-08-14, level 0</title></rect>
 <rect x="882" y="158" width="13" height="13" rx="3" fill="#1b2434"><title>2026-08-21, level 0</title></rect>
 <rect x="882" y="175" width="13" height="13" rx="3" fill="#1b2434"><title>2026-08-28, level 0</title></rect>
@@ -409,7 +409,7 @@
 <g opacity="0"><animate attributeName="opacity" dur="14.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.54214;0.93571;1" values="0;1;1;0"/>
 <rect x="899" y="90" width="13" height="13" rx="3" fill="#1b2434"><title>2026-09-11, level 0</title></rect>
 <rect x="899" y="107" width="13" height="13" rx="3" fill="#173a63"><title>2026-09-18, level 1</title></rect>
-<rect x="899" y="124" width="13" height="13" rx="3" fill="#173a63"><title>2026-09-25, level 1</title></rect>
+<rect x="899" y="124" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-09-25, level 2</title></rect>
 <rect x="899" y="141" width="13" height="13" rx="3" fill="#48a8f0"><title>2026-10-02, level 3</title></rect>
 <rect x="899" y="158" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-10-09, level 2</title></rect>
 <rect x="899" y="175" width="13" height="13" rx="3" fill="#48a8f0"><title>2026-10-16, level 3</title></rect>
@@ -475,11 +475,11 @@
 <rect x="1018" y="124" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-09-05, level 2</title></rect>
 <rect x="1018" y="141" width="13" height="13" rx="3" fill="#1b2434"><title>2026-09-12, level 0</title></rect>
 <rect x="1018" y="158" width="13" height="13" rx="3" fill="#7dcfff"><title>2026-09-19, level 4</title></rect>
-<rect x="1018" y="175" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-09-26, level 2</title></rect>
+<rect x="1018" y="175" width="13" height="13" rx="3" fill="#48a8f0"><title>2026-09-26, level 3</title></rect>
 <rect x="1018" y="192" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-10-03, level 2</title></rect>
 </g>
 <g opacity="0"><animate attributeName="opacity" dur="14.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.63357;0.93571;1" values="0;1;1;0"/>
-<rect x="1035" y="90" width="13" height="13" rx="3" fill="#173a63"><title>2026-10-10, level 1</title></rect>
+<rect x="1035" y="90" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-10-10, level 2</title></rect>
 <rect x="1035" y="107" width="13" height="13" rx="3" fill="#1b2434"><title>2026-10-17, level 0</title></rect>
 </g>
 </g>

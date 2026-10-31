@@ -485,10 +485,11 @@
 <rect x="1035" y="141" width="13" height="13" rx="3" fill="#173a63"><title>2026-10-10, level 1</title></rect>
 <rect x="1035" y="158" width="13" height="13" rx="3" fill="#1b2434"><title>2026-10-17, level 0</title></rect>
 <rect x="1035" y="175" width="13" height="13" rx="3" fill="#1f6fb2"><title>2026-10-24, level 2</title></rect>
+<rect x="1035" y="192" width="13" height="13" rx="3" fill="#1b2434"><title>2026-10-31, level 0</title></rect>
 </g>
 </g>
 <rect x="151" y="86" width="170" height="123" fill="url(#sweep)" clip-path="none"><animate attributeName="x" dur="7.0s" repeatCount="indefinite" values="-29;1068" keyTimes="0;1"/></rect>
-<text x="44" y="245" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#6b7a99">current streak <tspan fill="#7aa2f7">1d</tspan><tspan fill="#3d4a63">  ·  </tspan>longest <tspan fill="#7aa2f7">7d</tspan><tspan fill="#3d4a63">  ·  </tspan>updated 2026-10-30</text>
+<text x="44" y="245" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#6b7a99">current streak <tspan fill="#7aa2f7">1d</tspan><tspan fill="#3d4a63">  ·  </tspan>longest <tspan fill="#7aa2f7">7d</tspan><tspan fill="#3d4a63">  ·  </tspan>updated 2026-10-31</text>
 <text x="1061" y="245" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="11" fill="#3d4a63">less</text>
 <rect x="1058" y="234" width="13" height="13" rx="3" fill="#1b2434"/>
 <rect x="1075" y="234" width="13" height="13" rx="3" fill="#173a63"/>

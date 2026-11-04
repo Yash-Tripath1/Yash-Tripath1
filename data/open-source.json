@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "user": "Yash-Tripath1",
+  "fetched_at": "2026-11-04T17:18:46+00:00",
+  "scope": {
+    "visibility": "public",
+    "period": "all-time",
+    "excluded_owners": [
+      "yash-tripath1"
+    ],
+    "issues_include_prs": false
+  },
+  "stats": {
+    "prs_opened": 5,
+    "prs_merged": 2,
+    "issues_opened": 5,
+    "external_repos": 9
+  },
+  "repositories": [
+    {
+      "name": "tech-pw/cryo",
+      "url": "https://github.com/tech-pw/cryo",
+      "prs_opened": 1,
+      "prs_merged": 1,
+      "issues_opened": 1
+    },
+    {
+      "name": "umaidsiddiqui10/Bendlab",
+      "url": "https://github.com/umaidsiddiqui10/Bendlab",
+      "prs_opened": 1,
+      "prs_merged": 1,
+      "issues_opened": 0
+    },
+    {
+      "name": "academa-labs/manimgx",
+      "url": "https://github.com/academa-labs/manimgx",
+      "prs_opened": 1,
+      "prs_merged": 0,
+      "issues_opened": 0
+    },
+    {
+      "name": "adaptionlabs/adaption-codex-plugin",
+      "url": "https://github.com/adaptionlabs/adaption-codex-plugin",
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 1
+    },
+    {
+      "name": "FinanceFlash/unvibecode",
+      "url": "https://github.com/FinanceFlash/unvibecode",
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 1
+    },
+    {
+      "name": "HusseinMayla/ar-magic-mirror",
+      "url": "https://github.com/HusseinMayla/ar-magic-mirror",
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 1
+    },
+    {
+      "name": "JetBrains/thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "prs_opened": 1,
+      "prs_merged": 0,
+      "issues_opened": 0
+    },
+    {
+      "name": "Kuberwastaken/planethunt",
+      "url": "https://github.com/Kuberwastaken/planethunt",
+      "prs_opened": 1,
+      "prs_merged": 0,
+      "issues_opened": 0
+    },
+    {
+      "name": "PrefectHQ/fastmcp",
+      "url": "https://github.com/PrefectHQ/fastmcp",
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 1
+    }
+  ],
+  "queries": {
+    "prs": "author:Yash-Tripath1 is:public -user:yash-tripath1 is:pr",
+    "issues": "author:Yash-Tripath1 is:public -user:yash-tripath1 is:issue"
+  },
+  "complete": true
+}

@@ -1,90 +1,142 @@
-# Profile rebuild: monochrome edition
+# GitHub profile: open-source mission control
 
-Target repo: **`Yash-Tripath1/Yash-Tripath1`** (the repo whose name equals your
-username, default branch `main`).
+Target repository: **`Yash-Tripath1/Yash-Tripath1`**, default branch `main`.
 
-## 0. If you already pushed the previous version
+This update adds a custom open-source impact panel between **about** and
+**featured work**. It uses real public GitHub data, not sample counters or a
+third-party stats image. The existing banner, featured strip, activity scripts,
+and contribution snake are retained.
 
-Some files from the last version are no longer used. Delete them first:
+## What the panel shows
 
-```powershell
-cd C:\Users\tripa\Yash-Tripath1
-git rm -r --ignore-unmatch data scripts/gen_hero.py scripts/fetch_contributions.py `
-  assets/activity-dark.svg assets/activity-light.svg .github/workflows/update.yml
-git commit -m "chore: drop custom activity graph and nightly workflow"
-git push
+- **PRs opened:** public pull requests authored by you outside your own account.
+- **PRs merged:** the subset of those pull requests that were merged.
+- **Issues opened:** public issues authored by you outside your own account.
+- **External repos:** distinct repositories reached by at least one of those PRs or issues.
+- **Merge rate:** merged PRs divided by opened PRs.
+- A small repository footprint and the last refresh date.
+
+The default exclusion is your own account, `Yash-Tripath1`. Organization repos,
+including `glymph-studio`, count as external unless explicitly excluded. Private
+activity is not included. Closed-but-unmerged PRs do not count as merged.
+
+## 1. Preview locally
+
+Python 3.10+ is enough. There are no pip dependencies for the profile generators.
+
+```bash
+python3 scripts/fetch_open_source.py
+python3 scripts/gen_open_source.py --update-readme
+python3 scripts/gen_preview.py
+python3 scripts/serve_preview.py --port 8000
 ```
 
-(If that commit has nothing to remove, you never pushed those files. Fine either way.)
+Open `http://localhost:8000`, or open `preview.html` directly. The ZIP already
+includes a generated preview with the real SVGs and badges embedded.
 
-## 1. Copy the new files in
+For an entirely offline rebuild:
 
-```powershell
-cd C:\Users\tripa
-Expand-Archive .\Downloads\profile-rebuild.zip -DestinationPath .\profile-extract -Force
-Copy-Item .\profile-extract\profile-rebuild\.github .\Yash-Tripath1\ -Recurse -Force
-Copy-Item .\profile-extract\profile-rebuild\*       .\Yash-Tripath1\ -Recurse -Force
-
-cd .\Yash-Tripath1
-Get-ChildItem -Force -Name      # must show .github, assets, scripts, README.md, SETUP.md
-git status --short              # must show changes
-git add .
-git commit -m "feat: monochrome theme, rotating featured strip, no activity graph"
-git push
+```bash
+python3 scripts/gen_open_source.py --update-readme
+python3 scripts/gen_preview.py --offline
 ```
 
-## 2. Run the snake once
+Offline mode uses local assets and a placeholder for the remote snake. The
+prebuilt `preview.html` in this ZIP already contains the fetched snake.
 
-`Actions → Generate Snake → Run workflow`. It now writes **both** `snake.svg`
-(light) and `snake-dark.svg` (dark) in a monochrome palette, so the README can
-pick the right one per theme.
+## 2. Put the update on GitHub
 
-If the image looks stale after that, hard refresh (`Ctrl + Shift + R`); GitHub's
-image proxy can cache for a few hours.
+Extract the ZIP and copy its contents into your existing profile repository,
+including the hidden `.github` folder. Do not delete the existing `assets`,
+`data`, or `scripts` folders. Then review and push:
 
-## 3. What's in the repo now
-
-```
-README.md                        profile readme
-assets/
-  banner-dark.svg                animated banner, dark
-  banner-light.svg               animated banner, light
-  featured-{dark,light}.svg      rotating featured strip
-scripts/
-  gen_banner.py                  banner generator
-  gen_showcase.py                featured strip generator
-  gen_preview.py                 local preview builder
-.github/workflows/snake.yml      contribution snake, both themes
-SETUP.md                         this file
+```bash
+cd Yash-Tripath1
+git status
+git diff
+git add .github README.md SETUP.md .gitignore assets data scripts tests preview.html
+git commit -m "feat: add open-source mission-control panel"
+git push origin main
 ```
 
-Nothing else. No nightly workflow, because nothing needs refreshing anymore.
+The new images are served from this repository, so the section appears after
+the generated SVGs are pushed. GitHub's image proxy may cache an older image;
+a hard refresh can help.
 
-## 4. Editing things later
+## 3. Automatic refresh
 
-**featured strip content:** `scripts/gen_showcase.py`, the `PROJECTS` list. Each
-entry is `(name, description, stack)`. Then:
+The existing **Refresh Profile Assets** workflow now also:
 
-```powershell
-python3 scripts/gen_showcase.py
-git add assets/featured-*.svg
-git commit -m "chore: refresh featured"
-git push
+1. Runs the offline unit tests.
+2. Fetches public PRs and issues using GitHub's Search API.
+3. Rebuilds both mission-control SVGs.
+4. Updates the README image alt text and verification links.
+5. Commits changed assets, data, and README content.
+
+It runs daily at **02:17 UTC**, on relevant pushes to `main`, and manually via
+**Actions → Refresh Profile Assets → Run workflow**.
+
+The workflow uses the built-in `GITHUB_TOKEN`; no additional secret is needed
+for these public-only queries. A failed or incomplete fetch stops before the
+new snapshot is written, so the last good data is not replaced with partial
+counts. The existing calendar/banner refresh steps are unchanged.
+
+## 4. Change the counting scope
+
+To also exclude your studio's repositories, change the workflow's fetch command
+and run the same command locally:
+
+```bash
+python3 scripts/fetch_open_source.py --user Yash-Tripath1 --exclude-owner glymph-studio
+python3 scripts/gen_open_source.py --update-readme
 ```
 
-**banner terminal text:** `scripts/gen_banner.py`, the `LINES` list at the top.
-Run `python3 scripts/gen_banner.py` and push `assets/`.
+`--exclude-owner` is repeatable. Owner matching is case-insensitive. Your own
+account is always excluded. The exact queries and exclusions are recorded in
+`data/open-source.json` and the README verification links.
 
-**about bullets and stack block:** plain Markdown in `README.md`.
+## 5. Edit the design
 
-**local preview:** `python3 scripts/gen_preview.py`, then open `preview.html`.
-Real SVGs are inlined, so animation and the dark/light toggle work offline.
+- Panel layout and colors: `scripts/gen_open_source.py`, `PALETTES` and `build_svg`.
+- Fetching and metric definitions: `scripts/fetch_open_source.py`.
+- Profile copy and section order: `README.md`.
+- Local preview styling: `scripts/gen_preview.py`.
 
-## 5. Theme rules
+After design changes:
 
-- Banner, featured strip and snake are monochrome: white on black for dark mode,
-  black on white for light mode.
-- The only colour on the profile is GitHub's own contribution graph, which stays
-  green. That's the intended accent.
-- No third party image services anywhere, so nothing can 404 or rate limit.
-- No emoji headers and no em dashes in the visible text.
+```bash
+python3 scripts/gen_open_source.py --update-readme
+python3 scripts/gen_preview.py --offline
+python3 -m unittest discover -s tests -v
+```
+
+Keep the `OPEN_SOURCE:START` and `OPEN_SOURCE:END` markers in the README. The
+generator replaces only that section, preserving the rest of your profile.
+
+## Files added or updated
+
+```text
+README.md                         new open-source section and updated footer
+SETUP.md                          this guide
+.github/workflows/update.yml      tests + public stats refresh + asset commits
+assets/open-source-dark.svg       dark mission-control panel
+assets/open-source-light.svg      light mission-control panel
+data/open-source.json             last complete public-data snapshot
+scripts/fetch_open_source.py      paginated GitHub Search API fetcher
+scripts/gen_open_source.py        SVG and README section generator
+scripts/gen_preview.py            README-driven, self-contained local preview
+scripts/serve_preview.py          local preview server
+tests/test_open_source.py         offline pipeline and preview tests
+preview.html                      ready-to-open preview
+```
+
+## Verification
+
+```bash
+python3 -m unittest discover -s tests -v
+```
+
+The tests cover external-only counting, organization exclusions, PR/issue
+separation, pagination, incomplete responses, zero states, SVG escaping,
+README idempotency, and offline preview rendering. The preview is a local
+approximation; GitHub controls the final Markdown rendering on your profile.

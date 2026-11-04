@@ -1,8 +1,9 @@
 name: Refresh Profile Assets
 
-# Regenerates the banner + activity graph from live GitHub data and commits them.
-# Nothing is fetched from third-party image hosts, so the README can't end up
-# with a broken/rate-limited image.
+# Regenerates profile SVGs from live GitHub data and commits them.
+# The open-source panel uses public PR/issue data, excludes the profile owner's
+# own repositories, and keeps the last good snapshot if a fetch is incomplete.
+# No third-party image host or additional secret is required.
 
 on:
   schedule:
@@ -14,6 +15,7 @@ on:
     # only these paths — the bot's own commit to assets/ and data/ never re-triggers
     paths:
       - "scripts/**"
+      - "tests/**"
       - ".github/workflows/update.yml"
       - "README.md"
 
@@ -36,6 +38,17 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Check profile generators
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Pull public open-source contributions
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/fetch_open_source.py --user Yash-Tripath1
+
+      - name: Rebuild mission-control panel and README counters
+        run: python3 scripts/gen_open_source.py --update-readme
+
       - name: Pull contribution calendar
         run: python3 scripts/fetch_contributions.py --user Yash-Tripath1
 
@@ -49,10 +62,10 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets data
+          git add assets data README.md
           if git diff --quiet --cached; then
-            echo "assets already up to date"
+            echo "profile assets already up to date"
           else
-            git commit -m "chore(assets): refresh banner + activity graph"
+            git commit -m "chore(assets): refresh profile + open-source impact"
             git push
           fi

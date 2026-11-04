@@ -44,6 +44,11 @@
 
 ### featured work
 
+**research**
+
+- [Bendlab](https://github.com/Yash-Tripath1/Bendlab) · simulating and clustering plant responses to light; model fitting exposes parameter degeneracy. [project page ↗](https://yash-tripath1.github.io/Bendlab/)
+- [Sequential matching](https://github.com/Yash-Tripath1/sequential-matching-public-simulator-lab) · reciprocal matching under uncertainty; a non-replication study with full power analysis asking whether a reported policy advantage survives 12× data. [project page ↗](https://yash-tripath1.github.io/sequential-matching-public-simulator-lab/)
+
 <div align="center">
 
 <picture>

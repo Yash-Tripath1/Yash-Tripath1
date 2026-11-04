@@ -5,7 +5,9 @@ Target repository: **`Yash-Tripath1/Yash-Tripath1`**, default branch `main`.
 This update adds a custom open-source impact panel between **about** and
 **featured work**. It uses real public GitHub data, not sample counters or a
 third-party stats image. The existing banner, featured strip, activity scripts,
-and contribution snake are retained.
+and contribution snake are retained. **Featured work** now also calls out the
+Bendlab and sequential-matching research with direct repository and project-page
+links above the rotating strip.
 
 ## What the panel shows
 

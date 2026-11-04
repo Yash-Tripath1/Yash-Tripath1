@@ -15,6 +15,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import fetch_open_source as fetcher
 import gen_open_source as generator
 import gen_preview as preview
+import gen_showcase as showcase
 
 
 def item(number, repo="other/project", kind="pr", merged=False, author="Yash-Tripath1"):
@@ -142,6 +143,26 @@ class GeneratorTests(unittest.TestCase):
         generator.validate(data)
         self.assertEqual(data["scope"]["visibility"], "public")
         self.assertFalse(data["scope"]["issues_include_prs"])
+
+
+class FeaturedWorkTests(unittest.TestCase):
+    def test_readme_calls_out_both_research_projects(self):
+        text = (ROOT / "README.md").read_text(encoding="utf-8")
+        section = text.split("### featured work", 1)[1].split("### stack", 1)[0]
+        self.assertIn("https://github.com/Yash-Tripath1/Bendlab", section)
+        self.assertIn("https://github.com/Yash-Tripath1/sequential-matching-public-simulator-lab", section)
+        self.assertIn("https://yash-tripath1.github.io/Bendlab/", section)
+        self.assertIn("https://yash-tripath1.github.io/sequential-matching-public-simulator-lab/", section)
+
+    def test_showcase_strip_includes_research_projects(self):
+        names = [project[0] for project in showcase.PROJECTS]
+        self.assertIn("Bendlab", names)
+        self.assertIn("sequential-matching", names)
+        for theme in ("dark", "light"):
+            svg = showcase.build(theme, preview=True)
+            ET.fromstring(svg)
+            self.assertIn("Bendlab", svg)
+            self.assertIn("sequential-matching", svg)
 
 
 class PreviewTests(unittest.TestCase):

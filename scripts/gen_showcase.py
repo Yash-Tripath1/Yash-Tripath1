@@ -36,9 +36,9 @@ SANS = ("-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, "
 
 # (name, description, stack)  -- kept short so rows never collide
 PROJECTS = [
-    ("seq-matching",    "a reported policy advantage that does not survive 12x the data",
+    ("sequential-matching", "testing whether a reported policy advantage survives 12x the data",
      "python · simulation · power analysis"),
-    ("Bendlab",         "plant bending simulated, clustered, parameters shown to be degenerate",
+    ("Bendlab",         "plant responses to light simulated and clustered; degeneracy exposed",
      "python · clustering · model fitting"),
     ("anadi-dev",       "a 3D universe you scroll through, every planet is a project",
      "react · three.js · typescript"),

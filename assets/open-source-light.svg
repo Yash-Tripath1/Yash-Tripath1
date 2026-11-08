@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="oss-title oss-desc">
 <title id="oss-title">Open-source mission control</title>
-<desc id="oss-desc">Open-source mission control. Pull requests opened: 5; pull requests merged: 2; issues opened: 5; external repositories reached: 9. Public, all-time activity outside the user&#x27;s own account.</desc>
+<desc id="oss-desc">Open-source mission control. Pull requests opened: 5; pull requests merged: 2; issues opened: 6; external repositories reached: 10. Public, all-time activity outside the user&#x27;s own account.</desc>
 <rect x="1" y="1" width="1198" height="418" rx="14" fill="#ffffff" stroke="#e1e1e7"/>
 <g transform="translate(34 28)" fill="none" stroke="#397313" stroke-width="2.2" stroke-linecap="round">
 <circle cx="3" cy="4" r="3"/><circle cx="3" cy="24" r="3"/><circle cx="21" cy="4" r="3"/>
@@ -22,11 +22,11 @@
 <path d="M550 119l4 4 8-8" fill="none" stroke="#397313" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <rect x="610" y="100" width="269" height="166" rx="10" fill="#f8f8fa" stroke="#e1e1e7"/>
 <text x="630" y="126" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.4" fill="#73737e">REPORTED</text>
-<text x="628" y="207" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="76" font-weight="750" letter-spacing="-3" fill="#7048c8">5</text>
+<text x="628" y="207" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="76" font-weight="750" letter-spacing="-3" fill="#7048c8">6</text>
 <text x="630" y="244" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.1" fill="#62626e">ISSUES OPENED</text>
 <rect x="899" y="100" width="269" height="166" rx="10" fill="#f8f8fa" stroke="#e1e1e7"/>
 <text x="919" y="126" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.4" fill="#73737e">REACHED</text>
-<text x="917" y="207" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="76" font-weight="750" letter-spacing="-3" fill="#17171c">9</text>
+<text x="917" y="207" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="76" font-weight="750" letter-spacing="-3" fill="#17171c">10</text>
 <text x="919" y="244" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.1" fill="#62626e">EXTERNAL REPOS</text>
 <text x="32" y="301" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.5" fill="#62626e">MERGE RATE</text>
 <text x="1168" y="301" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#17171c">2 / 5 PRs · 40%</text>
@@ -34,7 +34,7 @@
 <rect x="32" y="315" width="454.40" height="8" rx="4" fill="#397313"/>
 <line x1="32" y1="348" x2="1168" y2="348" stroke="#e8e8ee"/>
 <text x="32" y="374" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.4" fill="#73737e">REPOSITORY FOOTPRINT</text>
-<text x="32" y="398" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#62626e">tech-pw/cryo · umaidsiddiqui10/Bendlab · academa-labs/manimgx  +6 more</text>
+<text x="32" y="398" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#62626e">tech-pw/cryo · umaidsiddiqui10/Bendlab · academa-labs/manimgx  +7 more</text>
 <text x="1168" y="374" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.1" fill="#73737e">LAST REFRESH</text>
-<text x="1168" y="398" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#62626e">07 NOV 2026 ↻</text>
+<text x="1168" y="398" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#62626e">08 NOV 2026 ↻</text>
 </svg>

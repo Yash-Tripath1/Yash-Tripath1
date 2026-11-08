@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "user": "Yash-Tripath1",
-  "fetched_at": "2026-11-07T08:54:34+00:00",
+  "fetched_at": "2026-11-08T09:08:50+00:00",
   "scope": {
     "visibility": "public",
     "period": "all-time",
@@ -13,8 +13,8 @@
   "stats": {
     "prs_opened": 5,
     "prs_merged": 2,
-    "issues_opened": 5,
-    "external_repos": 9
+    "issues_opened": 6,
+    "external_repos": 10
   },
   "repositories": [
     {
@@ -48,6 +48,13 @@
     {
       "name": "FinanceFlash/unvibecode",
       "url": "https://github.com/FinanceFlash/unvibecode",
+      "prs_opened": 0,
+      "prs_merged": 0,
+      "issues_opened": 1
+    },
+    {
+      "name": "Get-Concord-AI/concord-mcp",
+      "url": "https://github.com/Get-Concord-AI/concord-mcp",
       "prs_opened": 0,
       "prs_merged": 0,
       "issues_opened": 1

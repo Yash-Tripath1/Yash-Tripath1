@@ -24,6 +24,7 @@
 - dual degree: **BCA** at University of Lucknow + **BS in Data Science** at IIT Madras 
 - into **AI/ML, automation and cybersecurity**; learning in public, one repo at a time
 - reach me on [LinkedIn](https://www.linkedin.com/in/anadi-tripathi-4a33543a6) or through the [portfolio](https://anadi-dev.vercel.app)
+- My student id is 26f2005392@ds.study.iitm.ac.in
 
 <!-- OPEN_SOURCE:START -->
 ### open source

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "user": "Yash-Tripath1",
-  "fetched_at": "2026-11-09T09:55:22+00:00",
+  "fetched_at": "2026-11-10T09:59:14+00:00",
   "scope": {
     "visibility": "public",
     "period": "all-time",
@@ -11,10 +11,10 @@
     "issues_include_prs": false
   },
   "stats": {
-    "prs_opened": 5,
+    "prs_opened": 6,
     "prs_merged": 2,
-    "issues_opened": 6,
-    "external_repos": 10
+    "issues_opened": 7,
+    "external_repos": 11
   },
   "repositories": [
     {
@@ -30,6 +30,13 @@
       "prs_opened": 1,
       "prs_merged": 1,
       "issues_opened": 0
+    },
+    {
+      "name": "Apolotary/controlanything",
+      "url": "https://github.com/Apolotary/controlanything",
+      "prs_opened": 1,
+      "prs_merged": 0,
+      "issues_opened": 1
     },
     {
       "name": "academa-labs/manimgx",

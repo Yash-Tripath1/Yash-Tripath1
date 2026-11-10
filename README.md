@@ -34,7 +34,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/main/assets/open-source-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/main/assets/open-source-light.svg">
-  <img src="https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/main/assets/open-source-dark.svg" alt="Open-source mission control. Pull requests opened: 5; pull requests merged: 2; issues opened: 6; external repositories reached: 10. Public, all-time activity outside the user&#x27;s own account." width="100%">
+  <img src="https://raw.githubusercontent.com/Yash-Tripath1/Yash-Tripath1/main/assets/open-source-dark.svg" alt="Open-source mission control. Pull requests opened: 6; pull requests merged: 2; issues opened: 7; external repositories reached: 11. Public, all-time activity outside the user&#x27;s own account." width="100%">
 </picture>
 
 <sub>Public, all-time activity outside my own account. PRs and issues counted separately.</sub><br>

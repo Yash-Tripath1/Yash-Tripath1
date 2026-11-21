@@ -1,11 +1,11 @@
 {
  "user": "Yash-Tripath1",
- "fetched": "2026-11-20",
- "total": 455,
- "current_streak": 3,
+ "fetched": "2026-11-21",
+ "total": 457,
+ "current_streak": 0,
  "longest_streak": 9,
  "first_day": "2025-11-16",
- "last_day": "2026-11-14",
+ "last_day": "2026-11-21",
  "days": [
   {
    "date": "2025-11-16",
@@ -1277,7 +1277,7 @@
   },
   {
    "date": "2026-11-20",
-   "level": 2
+   "level": 3
   },
   {
    "date": "2025-11-22",
@@ -1485,6 +1485,10 @@
   },
   {
    "date": "2026-11-14",
+   "level": 0
+  },
+  {
+   "date": "2026-11-21",
    "level": 0
   }
  ]
